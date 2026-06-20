@@ -175,23 +175,7 @@ var ALL_EVENTS = [
     schedule: { type:"range", start:"2026-06-22", end:"2026-08-14", allDay:true }
   },
 
-  /* ============ 5) Ceramic & Sculpture Classes  -  ongoing ============ */
-  {
-    id: "ceramic_sculpture",
-    pages: ["GAK","GAC"],
-    title: "Ceramic & Sculpture Classes",
-    category: "pottery",
-    tags: ["Classes","Ceramics"],
-    teacher: "haley",
-    location: "Gabriel's Art Kids, Bellingham, WA",
-    venueLabel: "Gabriel's Art Center",
-    description: "Early Release Thursday program for middle school students. Pick-up at 1:15 PM from Whatcom, Shuksan, or Kulshan Middle School; drop-off at Whatcom Middle School (5:30/5:45 PM).",
-    buttonLabel: "Register Now",
-    link: "https://www.gabrielsartkids.com/ceramic.html",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/ceramic-sculpture-class-square_orig.jpg",
-    schedule: { type:"ongoing", expires:"2027-06-15" }
-  },
-
+ 
   /* ============ 6) Now Enrolling: ECE  -  ongoing (color override) ============ */
   {
     id: "ece_enroll",
