@@ -1,32 +1,96 @@
 /* =====================================================================
-   GAK / GAC SHARED EVENT DATA  (events.js)
+   GAK / GAC  -  events.js  -  THE ONE LIST EVERYTHING READS
+   =====================================================================
+   This single file feeds:
+     - the homepage carousel + calendar
+     - the calendar subscribe feed (build-ics.js makes gak-classes.ics)
+     - the Email Builder and the Media Maker
+     - the GAC page later (same file, just PAGE_TAG = "GAC")
+
+   You only ever edit the ALL_EVENTS list near the bottom. When you save
+   it on GitHub, everything else updates on its own.
+
    ---------------------------------------------------------------------
-   This is THE single source of truth. It is read by:
-     - the homepage carousel/calendar
-     - the email builder and the media (flyer/poster) maker
-     - the calendar feed builder (build-ics.js) that makes gak-classes.ics
-     - the GAC page later (same file, PAGE_TAG = "GAC")
+   HOW TO...
+   ---------------------------------------------------------------------
+   ADD an event     Copy the TEMPLATE block at the very bottom (it starts
+                    with a comma), paste it just above the  ];  remove the
+                    // from each line, and fill it in. Give it a new id.
+   EDIT an event    Change the fields in its block. Save.
+   REMOVE an event  Delete its whole { ... } block (and a stray comma).
+   FEATURE one      Put  featured: true  on a single event. It shows first
+                    with a star. Only one at a time.
+   CANCEL a session On a weekly/biweekly event, add the date to "skip",
+                    e.g.  skip: ["2026-07-21"]
+   AUTO-EXPIRE      Automatic. Past events disappear by themselves. You do
+                    not delete old ones; leaving them is fine.
 
-   Edit the ALL_EVENTS list below to add / change / remove anything.
-   See the big field guide in gak-events-calendar.html for what each
-   field does and how the "schedule" types work.
+   ---------------------------------------------------------------------
+   WHICH PAGE SHOWS AN EVENT  ->  the "pages" field
+   ---------------------------------------------------------------------
+       pages: ["GAK"]            main site only
+       pages: ["GAC"]            Gabriel's Art Center page only
+       pages: ["GAK","GAC"]      both
 
-   Loaded two ways, automatically:
-     - In a browser via <script src="events.js"> it defines the globals
-       ALL_EVENTS, TEACHERS, CAT_COLORS (and PAGE_TAG).
-     - In Node (the calendar build step) it exports the same things.
+   ---------------------------------------------------------------------
+   THE SCHEDULE  ->  pick ONE "type"
+   ---------------------------------------------------------------------
+     once     a single date
+              { type:"once", date:"2026-07-09", startTime:"18:00", endTime:"20:00" }
+     weekly   every week on a weekday until an end date
+              weekday: 0=Sun 1=Mon 2=Tue 3=Wed 4=Thu 5=Fri 6=Sat
+              { type:"weekly", weekday:4, anchor:"2026-09-17", until:"2027-06-11",
+                startTime:"13:15", endTime:"17:30", skip:["2026-11-26"] }
+     biweekly every OTHER week (same fields; "anchor" must be a real session)
+              { type:"biweekly", weekday:2, anchor:"2026-06-09", until:"2026-09-16",
+                startTime:"18:00", endTime:"20:30", skip:[] }
+     dates    a specific list of days
+              { type:"dates", dates:["2026-05-23","2026-06-04"], startTime:"10:00", endTime:"12:00" }
+     range    a multi-day program / camp week
+              { type:"range", start:"2026-06-22", end:"2026-08-14", allDay:true }
+     ongoing  no fixed dates, shows as a card until it expires
+              { type:"ongoing", expires:"2026-09-15" }
+
+   ---------------------------------------------------------------------
+   EVERY FIELD, EXPLAINED  (full example - this is a COMMENT, not a real
+   event; copy the live TEMPLATE at the very bottom to make a new one)
+   ---------------------------------------------------------------------
+     {
+       id:          "unique_slug",          // REQUIRED. lowercase, no spaces. must be unique.
+       pages:       ["GAK","GAC"],          // REQUIRED. which page(s) show it.
+       title:       "My Event Name",        // REQUIRED. card headline.
+       category:    "pottery",              // REQUIRED. sets the default color (see CAT_COLORS).
+                                            //   pottery dance specialty littles camp
+                                            //   enrollment classes family adult shop
+       color:       "orange",               // optional. forces a color, overriding category.
+                                            //   orange | purple | green | yellow | blue
+       tags:        ["Adult Events","Ceramics"], // optional. the filter chips on the page.
+       teacher:     "haley",                // optional. an id from TEACHERS below -> shows bio.
+       venueLabel:  "Gabriel's Art Center", // optional. small green badge naming the space.
+       location:    "123 Street, Bellingham, WA", // optional. also used in the calendar file.
+       price:       "$35 per painter",      // optional. shown in the detail popup.
+       spots:       "20 spots",             // optional. shown in the detail popup.
+       hook:        "Steins fired by Haley",// optional. short highlight line.
+       description: "One or two sentences. Simple <strong>bold</strong> is OK.", // REQUIRED.
+       buttonLabel: "Register Now",         // REQUIRED. text on the button.
+       link:        "https://...",          // REQUIRED. where the button goes.
+       image:       "https://.../photo.jpeg",// REQUIRED. full image URL.
+       featured:    true,                   // optional. ONE event only -> shown first, starred.
+       dateLabel:   "Custom date text",     // optional. overrides the auto date line.
+       schedule:    { type:"once", date:"2026-07-09", startTime:"18:00", endTime:"20:00" } // REQUIRED.
+     }
 ===================================================================== */
 
 var PAGE_TAG = (typeof window !== 'undefined' && window.PAGE_TAG) ? window.PAGE_TAG : "GAK";
 
-/* category -> default accent color (an item's own "color" wins over this) */
+/* category -> default accent color (an event's own "color" wins over this) */
 var CAT_COLORS = {
   pottery:'orange', dance:'purple', specialty:'blue', littles:'green',
   camp:'yellow', enrollment:'blue', classes:'blue', family:'green',
   adult:'orange', shop:'purple'
 };
 
-/* teacher bios (link an event with teacher:"haley") */
+/* teacher bios (link an event with  teacher:"haley" ) */
 var TEACHERS = {
   haley: {
     name: "Haley Holmgren",
@@ -37,8 +101,12 @@ var TEACHERS = {
   }
 };
 
-/* THE master list. Everything is generated from this. */
+/* =====================================================================
+   THE MASTER LIST  -  edit below. Each event is separated by a divider.
+   ===================================================================== */
 var ALL_EVENTS = [
+
+  /* ============ 1) Crepe & Paint  -  biweekly ============ */
   {
     id: "crepe_paint",
     pages: ["GAK","GAC"],
@@ -55,6 +123,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-7519_orig.jpeg",
     schedule: { type:"biweekly", weekday:2, anchor:"2026-06-09", until:"2026-09-16", startTime:"18:00", endTime:"20:30", skip:[] }
   },
+
+  /* ============ 2) Paint & Pint at Schweinhaus  -  once (FEATURED) ============ */
   {
     id: "schweinhaus_paint_pint",
     pages: ["GAK","GAC"],
@@ -73,6 +143,8 @@ var ALL_EVENTS = [
     featured: true,
     schedule: { type:"once", date:"2026-07-09", startTime:"18:00", endTime:"20:00" }
   },
+
+  /* ============ 3) Paint a Tote at Hela  -  once ============ */
   {
     id: "hela_tote",
     pages: ["GAK","GAC"],
@@ -87,6 +159,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/paint-and-sip-hella-psd-3_orig.jpeg",
     schedule: { type:"once", date:"2026-07-16", startTime:"17:00", endTime:"19:00" }
   },
+
+  /* ============ 4) Summer Camp 2026  -  range (multi-day) ============ */
   {
     id: "summer_camp_2026",
     pages: ["GAK"],
@@ -100,6 +174,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/summer-camp-square-2026_orig.jpeg",
     schedule: { type:"range", start:"2026-06-22", end:"2026-08-14", allDay:true }
   },
+
+  /* ============ 5) Ceramic & Sculpture Classes  -  ongoing ============ */
   {
     id: "ceramic_sculpture",
     pages: ["GAK","GAC"],
@@ -115,6 +191,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/ceramic-sculpture-class-square_orig.jpg",
     schedule: { type:"ongoing", expires:"2027-06-15" }
   },
+
+  /* ============ 6) Now Enrolling: ECE  -  ongoing (color override) ============ */
   {
     id: "ece_enroll",
     pages: ["GAK"],
@@ -129,6 +207,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-3719_orig.jpeg",
     schedule: { type:"ongoing", expires:"2026-09-15" }
   },
+
+  /* ============ 7) Now Enrolling: RWSAS  -  ongoing (color override) ============ */
   {
     id: "rwsas_enroll",
     pages: ["GAK"],
@@ -143,6 +223,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-3729_orig.jpeg",
     schedule: { type:"ongoing", expires:"2026-09-15" }
   },
+
+  /* ============ 8) Now Enrolling: After-School  -  ongoing (color override) ============ */
   {
     id: "afterschool_enroll",
     pages: ["GAK"],
@@ -157,6 +239,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-3723_orig.jpeg",
     schedule: { type:"ongoing", expires:"2026-09-15" }
   },
+
+  /* ============ 9) Ceramics Camp Try-Out Days  -  dates (specific days) ============ */
   {
     id: "ceramics_tryout_days",
     pages: ["GAK","GAC"],
@@ -173,6 +257,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-7324_orig.jpeg",
     schedule: { type:"dates", dates:["2026-05-23","2026-06-04","2026-06-06","2026-06-07"], startTime:"10:00", endTime:"12:00" }
   },
+
+  /* ============ 10) Fiamma Pizza & Paint  -  once ============ */
   {
     id: "fiamma_pizza_paint",
     pages: ["GAK","GAC"],
@@ -188,6 +274,8 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-7315_orig.jpeg",
     schedule: { type:"once", date:"2026-06-09", startTime:"18:30", endTime:"20:30" }
   },
+
+  /* ============ 11) GAK Store  -  ongoing (no expiry) ============ */
   {
     id: "gak_store",
     pages: ["GAK"],
@@ -200,9 +288,36 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-4804_orig.gif",
     schedule: { type:"ongoing" }
   }
+
+  /* ============ TEMPLATE - copy to add a new event ============
+     Copy this whole block INCLUDING the leading comma, paste it just
+     above the  ];  below, delete the // from each line, and fill it in.
+     Only the lines marked REQUIRED are mandatory; delete the rest if
+     you don't need them.
+
+  ,{
+    id: "my_new_event",                    // REQUIRED unique slug
+    pages: ["GAK"],                        // REQUIRED ["GAK"], ["GAC"], or both
+    title: "My New Event",                 // REQUIRED
+    category: "pottery",                   // REQUIRED pottery|dance|specialty|littles|camp|enrollment|classes|family|adult|shop
+    color: "orange",                       // optional color override
+    tags: ["Adult Events"],                // optional filter chips
+    teacher: "haley",                      // optional, must match a TEACHERS id
+    venueLabel: "Gabriel's Art Center",    // optional badge
+    location: "123 Street, Bellingham, WA",// optional
+    price: "$35",                          // optional
+    spots: "20 spots",                     // optional
+    hook: "Short highlight",               // optional
+    description: "What it is, in a sentence or two.", // REQUIRED
+    buttonLabel: "Register Now",           // REQUIRED
+    link: "https://form.jotform.com/REPLACE-ME",      // REQUIRED
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/REPLACE.jpeg", // REQUIRED
+    schedule: { type:"once", date:"2026-10-31", startTime:"18:00", endTime:"20:00" } // REQUIRED
+  }
+  ============ end template ============ */
 ];
 
-/* Node (the calendar build step) reads it through here */
+/* Lets the calendar build step (build-ics.js) read this list in Node. */
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { ALL_EVENTS: ALL_EVENTS, TEACHERS: TEACHERS, CAT_COLORS: CAT_COLORS };
 }
