@@ -18,8 +18,11 @@
                     // from each line, and fill it in. Give it a new id.
    EDIT an event    Change the fields in its block. Save.
    REMOVE an event  Delete its whole { ... } block (and a stray comma).
-   FEATURE one      Put  featured: true  on a single event. It shows first
-                    with a star. Only one at a time.
+   FEATURE          Put  featured: true  on an event. Featured events show
+                    first with a star, and a "Featured" filter appears on the
+                    site. You can feature as many as you like.
+   EXTRA MEDIA      Add a  media: [ ... ]  list for more photos/videos beyond
+                    the main image. They show as a gallery in the popup.
    CANCEL a session On a weekly/biweekly event, add the date to "skip",
                     e.g.  skip: ["2026-07-21"]
    AUTO-EXPIRE      Automatic. Past events disappear by themselves. You do
@@ -74,8 +77,19 @@
        description: "One or two sentences. Simple <strong>bold</strong> is OK.", // REQUIRED.
        buttonLabel: "Register Now",         // REQUIRED. text on the button.
        link:        "https://...",          // REQUIRED. where the button goes.
-       image:       "https://.../photo.jpeg",// REQUIRED. full image URL.
-       featured:    true,                   // optional. ONE event only -> shown first, starred.
+       image:       "https://.../photo.jpeg",// REQUIRED. the MAIN square image. used by the
+                                            //   card, the popup, the calendar AND the email tools.
+                                            //   keep this as your one canonical image.
+       media:       [                       // optional. EXTRA media beyond the main image.
+         { type:"image", url:"https://.../photo2.jpeg", caption:"Back of the mug" },
+         { type:"video", url:"https://youtu.be/ID", link:"https://youtu.be/ID",
+           thumb:"https://.../cover.jpeg", caption:"Watch the class" }
+       ],                                   //   shown as a thumbnail gallery in the popup.
+                                            //   videos open their link in a new tab.
+       featured:    true,                   // optional. shown first with a star. MORE THAN ONE
+                                            //   event can be featured; on the site a "Featured"
+                                            //   filter appears. Featured is per page (a GAC-only
+                                            //   featured event only stars on the GAC page).
        dateLabel:   "Custom date text",     // optional. overrides the auto date line.
        schedule:    { type:"once", date:"2026-07-09", startTime:"18:00", endTime:"20:00" } // REQUIRED.
      }
@@ -175,7 +189,23 @@ var ALL_EVENTS = [
     schedule: { type:"range", start:"2026-06-22", end:"2026-08-14", allDay:true }
   },
 
- 
+  /* ============ 5) Ceramic & Sculpture Classes  -  ongoing ============ */
+  {
+    id: "ceramic_sculpture",
+    pages: ["GAK","GAC"],
+    title: "Ceramic & Sculpture Classes",
+    category: "pottery",
+    tags: ["Classes","Ceramics"],
+    teacher: "haley",
+    location: "Gabriel's Art Kids, Bellingham, WA",
+    venueLabel: "Gabriel's Art Center",
+    description: "Early Release Thursday program for middle school students. Pick-up at 1:15 PM from Whatcom, Shuksan, or Kulshan Middle School; drop-off at Whatcom Middle School (5:30/5:45 PM).",
+    buttonLabel: "Register Now",
+    link: "https://www.gabrielsartkids.com/ceramic.html",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/ceramic-sculpture-class-square_orig.jpg",
+    schedule: { type:"ongoing", expires:"2027-06-15" }
+  },
+
   /* ============ 6) Now Enrolling: ECE  -  ongoing (color override) ============ */
   {
     id: "ece_enroll",
@@ -295,7 +325,12 @@ var ALL_EVENTS = [
     description: "What it is, in a sentence or two.", // REQUIRED
     buttonLabel: "Register Now",           // REQUIRED
     link: "https://form.jotform.com/REPLACE-ME",      // REQUIRED
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/REPLACE.jpeg", // REQUIRED
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/REPLACE.jpeg", // REQUIRED main image
+    // featured: true,                     // optional, can be on more than one event
+    // media: [                            // optional extra photos/videos (gallery in the popup)
+    //   { type:"image", url:"https://.../photo2.jpeg", caption:"Caption" },
+    //   { type:"video", url:"https://youtu.be/ID", link:"https://youtu.be/ID", thumb:"https://.../cover.jpeg", caption:"Watch" }
+    // ],
     schedule: { type:"once", date:"2026-10-31", startTime:"18:00", endTime:"20:00" } // REQUIRED
   }
   ============ end template ============ */
