@@ -201,22 +201,7 @@ var ALL_EVENTS = [
     schedule: { type:"range", start:"2026-06-22", end:"2026-08-14", allDay:true }
   },
 
-  /* ============ 5) Ceramic & Sculpture Classes  -  ongoing ============ */
-  {
-    id: "ceramic_sculpture",
-    pages: ["GAK","GAC"],
-    title: "Ceramic & Sculpture Classes",
-    category: "pottery",
-    tags: ["Classes","Ceramics"],
-    teacher: "haley",
-    location: "Gabriel's Art Kids, Bellingham, WA",
-    venueLabel: "Gabriel's Art Center",
-    description: "Early Release Thursday program for middle school students. Pick-up at 1:15 PM from Whatcom, Shuksan, or Kulshan Middle School; drop-off at Whatcom Middle School (5:30/5:45 PM).",
-    buttonLabel: "Register Now",
-    link: "https://www.gabrielsartkids.com/ceramic.html",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/ceramic-sculpture-class-square_orig.jpg",
-    schedule: { type:"ongoing", expires:"2027-06-15" }
-  },
+  
 
   /* ============ 6) Now Enrolling: ECE  -  ongoing (color override) ============ */
   {
@@ -266,23 +251,7 @@ var ALL_EVENTS = [
     schedule: { type:"ongoing", expires:"2026-09-15" }
   },
 
-  /* ============ 9) Ceramics Camp Try-Out Days  -  dates (specific days) ============ */
-  {
-    id: "ceramics_tryout_days",
-    pages: ["GAK","GAC"],
-    title: "Ceramics Camp Try-Out Days",
-    category: "pottery",
-    tags: ["Camps","Ceramics"],
-    teacher: "haley",
-    location: "Holly Street Studio, Bellingham, WA",
-    venueLabel: "Gabriel's Art Center",
-    price: "$25 per session",
-    description: "Try a ceramics class before committing to a full camp week! Drop-in sessions with Teacher Haley. $25 per session, credited toward tuition if you register within 30 days. Ages 5-16, all materials included!",
-    buttonLabel: "Register Now",
-    link: "https://form.jotform.com/261386344133051",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-7324_orig.jpeg",
-    schedule: { type:"dates", dates:["2026-05-23","2026-06-04","2026-06-06","2026-06-07"], startTime:"10:00", endTime:"12:00" }
-  },
+  
 
   /* ============ 10) Fiamma Pizza & Paint  -  once ============ */
   {
