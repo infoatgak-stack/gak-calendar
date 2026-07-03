@@ -222,7 +222,7 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-art-walk_orig.jpeg",
     featured: true,
     schedule: { type:"once", date:"2026-08-07", startTime:"18:00", endTime:"22:00" }
-  }
+  },
 
 
 
