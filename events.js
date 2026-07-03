@@ -186,6 +186,48 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-07-16", startTime:"17:00", endTime:"19:00" }
   },
 
+
+  /* ============ 12) Sketch & Pet at NEKO  -  once ============ */
+  {
+    id: "neko_sketch_pet",
+    pages: ["GAK"],
+    title: "Sketch & Pet: Observational Cat Drawing",
+    category: "specialty",
+    tags: ["All Ages","Drawing"],
+    venueLabel: "NEKO Bellingham",
+    location: "NEKO Cat Cafe, Bellingham, WA",
+    price: "$30",
+    hook: "Draw the kitties, all levels welcome",
+    description: "A drawing class with the cutest live models around! Join us and Gabriel's Art Kids for an observational drawing session with the kitties as your subjects. For all ages and all skill levels, paper, pencils, charcoal, and other sketching supplies purrvided by GAK.",
+    buttonLabel: "Register Now",
+    link: "https://book.peek.com/s/9be0c799-6cbe-4ddb-aa08-66c64af3043d/aD2d6",
+    image: "https://www.nekocatcafe.com/asset/6a43f41566c3b/download-56.jpeg?w=400&h=400&fit=crop&fm=webp",
+    schedule: { type:"once", date:"2026-07-23", startTime:"17:00", endTime:"19:00" }
+  },
+
+  /* ============ 13) First Friday Art Walk: GAC Soft Opening  -  once (FEATURED) ============ */
+  {
+    id: "gac_art_walk_aug7",
+    pages: ["GAK","GAC"],
+    title: "First Friday Art Walk: GAC Soft Opening",
+    category: "family",
+    tags: ["All Ages","Art Walk","Free"],
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "Free",
+    hook: "Our soft opening, come see the space!",
+    description: "Join us for the soft opening of <strong>Gabriel's Art Center</strong> as part of downtown Bellingham's First Friday Art Walk! Meet your favorite GAK and GAC instructors and enjoy work from visual artists, performers, and dancers, plus a first look at everything GAC has in store. No registration needed, just drop by.",
+    buttonLabel: "Learn More About GAC",
+    link: "https://www.gabrielsartkids.com/gabriels-art-center.html",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-art-walk_orig.jpeg",
+    featured: true,
+    schedule: { type:"once", date:"2026-08-07", startTime:"18:00", endTime:"22:00" }
+  }
+
+
+
+
+   
   /* ============ 4) Summer Camp 2026  -  range (multi-day) ============ */
   {
     id: "summer_camp_2026",
