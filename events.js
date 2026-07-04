@@ -198,7 +198,7 @@ var ALL_EVENTS = [
     location: "NEKO Cat Cafe, Bellingham, WA",
     price: "$30",
     hook: "Draw the kitties, all levels welcome",
-    description: "A drawing class with the cutest live models around! Join us and Gabriel's Art Kids for an observational drawing session with the kitties as your subjects. For all ages and all skill levels, paper, pencils, charcoal, and other sketching supplies purrvided by GAK.",
+    description: "A drawing class with the cutest live models around! Join GAK at NEKO for an observational drawing session with the kitties as your subjects. For all ages and all skill levels, paper, pencils, charcoal, and other sketching supplies purrvided by GAK.",
     buttonLabel: "Register Now",
     link: "https://book.peek.com/s/9be0c799-6cbe-4ddb-aa08-66c64af3043d/aD2d6",
     image: "https://www.nekocatcafe.com/asset/6a43f41566c3b/download-56.jpeg?w=400&h=400&fit=crop&fm=webp",
