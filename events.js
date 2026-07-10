@@ -225,7 +225,25 @@ var ALL_EVENTS = [
   },
 
 
-
+/* ============ Back-to-School Backpack Giveaway  -  ongoing (PROMO, FEATURED) ============ */
+  ,{
+    id: "backpack_giveaway_2026",
+    pages: ["GAK"],
+    title: "Back-to-School Backpack Giveaway",
+    category: "enrollment",
+    color: "orange",
+    tags: ["Promo"],
+    location: "Gabriel's Art Kids, Bellingham, WA",
+    spots: "Limited to the first 20 families",
+    hook: "First 20 families to register win a free backpack!",
+    description: "The first 20 families to register for ASAP get a <strong>FREE backpack loaded with school supplies!</strong> Give your little artist everything they need to create from day one. <strong>Starts July 15 &middot; July &amp; August 2026.</strong>",
+    buttonLabel: "Register Now",
+    link: "https://www.gabrielsartkids.com/enrollment-fees.html",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-3820_orig.jpeg",
+    featured: true,
+    dateLabel: "Register July 15 to August 31, 2026",
+    schedule: { type:"ongoing", expires:"2026-08-31" }
+  }
 
    
   /* ============ 4) Summer Camp 2026  -  range (multi-day) ============ */
