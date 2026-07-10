@@ -243,7 +243,7 @@ var ALL_EVENTS = [
     featured: true,
     dateLabel: "Register July 15 to August 31, 2026",
     schedule: { type:"ongoing", expires:"2026-08-31" }
-  }
+  },
 
    
   /* ============ 4) Summer Camp 2026  -  range (multi-day) ============ */
