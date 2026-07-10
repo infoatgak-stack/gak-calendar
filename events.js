@@ -226,7 +226,7 @@ var ALL_EVENTS = [
 
 
 /* ============ Back-to-School Backpack Giveaway  -  ongoing (PROMO, FEATURED) ============ */
-  ,{
+  {
     id: "backpack_giveaway_2026",
     pages: ["GAK"],
     title: "Back-to-School Backpack Giveaway",
