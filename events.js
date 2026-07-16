@@ -225,6 +225,48 @@ var ALL_EVENTS = [
   },
 
 
+    /* ============ 14) Toddler Music & Art Trial Class  -  dates (FEATURED) ============ */
+  {
+    id: "toddler_music_trial_aug2026",
+    pages: ["GAK","GAC"],
+    title: "Toddler Music & Art: Trial Class",
+    category: "littles",
+    tags: ["Whole Family","Toddlers","Trial Class"],
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$25, credited toward the fall session",
+    spots: "Small group, one per family",
+    hook: "Try one class, your $25 comes back",
+    description: "Not ready to commit to six weeks? Come try one morning first. Same songs, same process art, same small group, with a grown-up right there beside them. <strong>Pick one date &middot; 10:00&ndash;10:45 AM &middot; Ages birth to 4</strong> &middot; Your $25 comes off the 6-week fall session when you enroll.",
+    buttonLabel: "Try a Class for $25",
+    link: "https://www.gabrielsartkids.com/toddlermusic.html",
+    image: "https://www.jotform.com/uploads/remyatgak/form_files/Illustration2%2018.658dcd9d05f419.46196051.png",
+    featured: true,
+    dateLabel: "Pick one: Aug 1, Aug 8, or Aug 14, 2026",
+    schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
+  },
+ 
+  /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly (FEATURED) ============ */
+  {
+    id: "toddler_music_fall_2026",
+    pages: ["GAK","GAC"],
+    title: "Toddler Music & Art: Fall 2026",
+    category: "littles",
+    tags: ["Whole Family","Toddlers"],
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$139 for 6 weeks",
+    spots: "10 spots",
+    hook: "Grown-ups stay, playground open till 11",
+    description: "Six Friday mornings of shakers, scarves, drums, and process art for ages birth to 4, with a grown-up right there beside them. No drop-off, no performance, no experience needed. <strong>Fridays, Sep 11 &ndash; Oct 16 &middot; 10:00&ndash;10:45 AM</strong> &middot; Playground open until 11:00 &middot; Limited to 10 students.",
+    buttonLabel: "Register Now",
+    link: "https://www.gabrielsartkids.com/toddlermusic.html",
+    image: "https://www.jotform.com/uploads/remyatgak/form_files/Illustration2%2018.658dcd9d05f419.46196051.png",
+    featured: true,
+    schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45" }
+  },
+ 
+
 /* ============ Back-to-School Backpack Giveaway  -  ongoing (PROMO, FEATURED) ============ */
   {
     id: "backpack_giveaway_2026",
