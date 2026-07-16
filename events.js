@@ -240,7 +240,7 @@ var ALL_EVENTS = [
     description: "Not ready to commit to six weeks? Come try one morning first. Same songs, same process art, same small group, with a grown-up right there beside them. <strong>Pick one date &middot; 10:00&ndash;10:45 AM &middot; Ages birth to 4</strong> &middot; Your $25 comes off the 6-week fall session when you enroll.",
     buttonLabel: "Try a Class for $25",
     link: "https://www.gabrielsartkids.com/toddlermusic.html",
-    image: "https://www.jotform.com/uploads/remyatgak/form_files/Illustration2%2018.658dcd9d05f419.46196051.png",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-6692_orig.jpeg",
     dateLabel: "Pick one: Aug 1, Aug 8, or Aug 14, 2026",
     schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
   },
@@ -260,7 +260,7 @@ var ALL_EVENTS = [
     description: "Six Friday mornings of shakers, scarves, drums, and process art for ages birth to 4, with a grown-up right there beside them. No drop-off, no performance, no experience needed. <strong>Fridays, Sep 11 &ndash; Oct 16 &middot; 10:00&ndash;10:45 AM</strong> &middot; Playground open until 11:00 &middot; Limited to 10 students.",
     buttonLabel: "Register Now",
     link: "https://www.gabrielsartkids.com/toddlermusic.html",
-    image: "https://www.jotform.com/uploads/remyatgak/form_files/Illustration2%2018.658dcd9d05f419.46196051.png",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-6692_orig.jpeg",
     schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45" }
   },
  
