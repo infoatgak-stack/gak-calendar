@@ -241,7 +241,6 @@ var ALL_EVENTS = [
     buttonLabel: "Try a Class for $25",
     link: "https://www.gabrielsartkids.com/toddlermusic.html",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/REPLACE-toddler-trial.jpeg", // REPLACE: TRIAL-stamped version
-    
     dateLabel: "Pick one: Aug 1, Aug 8, or Aug 14, 2026",
     schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
   },
@@ -262,7 +261,6 @@ var ALL_EVENTS = [
     buttonLabel: "Register Now",
     link: "https://www.gabrielsartkids.com/toddlermusic.html",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/REPLACE-toddler-fall.jpeg", // REPLACE: plain version, no stamp
-    
     schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45" }
   },
  
@@ -283,7 +281,6 @@ var ALL_EVENTS = [
     buttonLabel: "Register Now",
     link: "https://www.gabrielsartkids.com/enrollment-fees.html",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-3820_orig.jpeg",
-   
     dateLabel: "Register July 15 to August 31, 2026",
     schedule: { type:"ongoing", expires:"2026-08-31" }
   },
