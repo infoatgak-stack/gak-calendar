@@ -132,23 +132,25 @@ var TEACHERS = {
    ===================================================================== */
 var ALL_EVENTS = [
 
-  /* ============ 1) Crepe & Paint  -  biweekly ============ */
+ /* ============ 1) End of Summer Plate Painting Night  -  once (FEATURED) ============ */
   {
-    id: "crepe_paint",
+    id: "ab_crepes_end_of_summer_paint",
     pages: ["GAK","GAC"],
-    title: "Crepe & Paint at AB Crepes",
+    title: "End of Summer Plate Painting Night at AB Crepes",
     category: "pottery",
     tags: ["Adult Events","Paint & Sip","Ceramics"],
     teacher: "haley",
     location: "AB Crepes, downtown Bellingham, WA",
     price: "Limited to 10 spots",
-    hook: "Plates hand-thrown in our studio",
-    description: "Your midweek creative reset! Paint a hand-thrown ceramic plate made in our studio, guided by instructor Haley. <strong>Every other Tuesday &middot; 6:00&ndash;8:30 PM</strong> &middot; AB Crepes, downtown Bellingham &middot; Limited to 10 spots!",
+    hook: "One special night, plates hand-thrown in our studio",
+    description: "Our End of Summer Plate Painting Night! Paint a hand-thrown ceramic plate made in our studio, guided by instructor Haley. <strong>Tuesday, August 18 &middot; 6:00&ndash;8:30 PM</strong> &middot; AB Crepes, downtown Bellingham &middot; Limited to 10 spots!",
     buttonLabel: "Register Now",
     link: "https://www.gabrielsartkids.com/crepe-and-paint-ab-crepes.html",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-7519_orig.jpeg",
-    schedule: { type:"biweekly", weekday:2, anchor:"2026-06-09", until:"2026-09-16", startTime:"18:00", endTime:"20:30", skip:[] }
+    featured: true,
+    schedule: { type:"once", date:"2026-08-18", startTime:"18:00", endTime:"20:30" }
   },
+ 
 
   /* ============ 2) Paint & Pint at Schweinhaus  -  once (FEATURED) ============ */
   {
