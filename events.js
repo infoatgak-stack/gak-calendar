@@ -266,7 +266,7 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45" }
   },
  
- ,
+
 
   /* ============ Take a Peek: RWSAS Tour  -  dates (color override) ============ */
   {
