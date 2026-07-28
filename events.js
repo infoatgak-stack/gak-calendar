@@ -266,7 +266,25 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45" }
   },
  
- 
+ ,
+
+  /* ============ Take a Peek: RWSAS Tour  -  dates (color override) ============ */
+  {
+    id: "rwsas_take_a_peek_tour",
+    pages: ["GAK"],
+    title: "Take a Peek: RWSAS Tour",
+    category: "enrollment",
+    color: "green",
+    tags: ["Enrollment","Tour"],
+    location: "1405 Dupont St, Bellingham, WA",
+    hook: "Sign up for a 15 minute tour",
+    description: "Curious what makes RWSAS different? Sign up for a 15 minute Take a Peek tour and see our arts integrated curriculum, project based learning, and small mixed age classrooms in action. <strong>1405 Dupont St, Bellingham</strong>.",
+    buttonLabel: "Sign Up for a Tour",
+    link: "https://form.jotform.com/260848563027159",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-8680_orig.jpeg",
+    dateLabel: "Pick one: Thu, Jul 30 or Mon, Aug 3, 2026 @ 5:00 PM",
+    schedule: { type:"dates", dates:["2026-07-30","2026-08-03"], startTime:"17:00", endTime:"17:15" }
+  },
 
 /* ============ Back-to-School Backpack Giveaway  -  ongoing (PROMO, FEATURED) ============ */
   {
