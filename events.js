@@ -216,6 +216,27 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-07-16", startTime:"17:00", endTime:"19:00" }
   },
 
+   /* ============ Dance / Pom Fusion  -  weekly Tuesdays (Brittany Parker) ============ */
+  {
+    id: "pom_dance_fusion",
+    pages: ["GAK","GAC"],
+    title: "Dance / Pom Fusion",
+    category: "dance",
+    tags: ["Teens","Adults","Dance","Drop-In"],
+    teacher: "brittany",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$25 drop-in",
+    spots: "15 dancers per class",
+    hook: "Poms provided · open level",
+    description: "Commercial dance training for former pom and dance-team athletes &mdash; and anyone who's always wanted to try it. Open level, so beginners are welcome alongside dancers keeping their technique sharp. Poms provided. <strong>Tuesdays, 8:30&ndash;9:30 PM</strong> with Brittany Parker. Ages 14+. Drop in for a single night, 15 dancers per class.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-pom-dance-fusion_orig.jpg",
+    dateLabel: "Tuesdays, Sept 8 – Dec 22 · 8:30–9:30 PM",
+    schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"20:30", endTime:"21:30", skip:[] }
+  },
+ 
 
   /* ============ 12) Sketch & Pet at NEKO  -  once ============ */
   {
