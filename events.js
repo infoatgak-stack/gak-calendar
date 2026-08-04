@@ -282,7 +282,7 @@ var ALL_EVENTS = [
     ],
     featured: true,
     schedule: { type:"once", date:"2026-08-23", startTime:"10:00", endTime:"12:00" }
-  }
+  },
  
 
     /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
