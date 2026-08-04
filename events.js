@@ -236,6 +236,28 @@ var ALL_EVENTS = [
     dateLabel: "Tuesdays, Sept 8 – Dec 22 · 8:30–9:30 PM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"20:30", endTime:"21:30", skip:[] }
   },
+
+ /* ============ Open Level Contemporary  -  weekly Mondays (Brittany Parker) ============ */
+  {
+    id: "open_level_contemporary",
+    pages: ["GAK","GAC"],
+    title: "Open Level Contemporary",
+    category: "dance",
+    tags: ["Teens","Adults","Dance","Drop-In"],
+    teacher: "brittany",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$25 drop-in",
+    spots: "15 dancers per class",
+    hook: "Where dancers from every program train together",
+    description: "Most studios around here focus on competition and academy-style training &mdash; there's nowhere central for dancers from different programs to simply train together. This is that room. Open level, so complete beginners work alongside dancers keeping their technique sharp, and everyone gets the same welcoming, intuitive practice. <strong>Mondays, 11:00 AM&ndash;12:00 PM</strong> with Brittany Parker. Ages 13+. Drop in for a single class, 15 dancers each week.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-open-level-contemporary_orig.jpg",
+    dateLabel: "Mondays, Sept 14 – Dec 21 · 11:00 AM–12:00 PM",
+    schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-12-21", startTime:"11:00", endTime:"12:00", skip:[] }
+  },
+   
  /* ============ Restorative Movement  -  weekly Mondays (Brittany Parker) ============ */
   {
     id: "restorative_movement",
