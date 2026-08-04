@@ -320,7 +320,26 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-08-07", startTime:"18:00", endTime:"22:00" }
   },
 
-
+    /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
+  {
+    id: "toddler_music_trial_aug2026",
+    pages: ["GAK","GAC"],
+    title: "Toddler Music & Art: Trial Class",
+    category: "littles",
+    tags: ["Whole Family","Toddlers","Trial Class"],
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$25, credited toward the fall session",
+    spots: "Small group, one per family",
+    hook: "Try one class, your $25 comes back",
+    description: "Not ready to commit to six weeks? Come try one morning first. Same songs, same process art, same small group, with a grown-up right there beside them. <strong>Pick one date &middot; 10:00&ndash;10:45 AM &middot; Ages birth to 4</strong> &middot; Your $25 comes off the 6-week fall session when you enroll.",
+    buttonLabel: "Try a Class for $25",
+    link: "https://www.gabrielsartkids.com/toddlermusic.html",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-6692_orig.jpeg",
+    dateLabel: "Pick one: Aug 1, Aug 8, or Aug 14, 2026",
+    schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
+  },
+   
     /* ============ Dance Day  -  once (Brittany Parker) ============ */
   {
     id: "dance_day_aug23",
@@ -351,25 +370,7 @@ var ALL_EVENTS = [
   },
  
 
-    /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
-  {
-    id: "toddler_music_trial_aug2026",
-    pages: ["GAK","GAC"],
-    title: "Toddler Music & Art: Trial Class",
-    category: "littles",
-    tags: ["Whole Family","Toddlers","Trial Class"],
-    venueLabel: "Gabriel's Art Center",
-    location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$25, credited toward the fall session",
-    spots: "Small group, one per family",
-    hook: "Try one class, your $25 comes back",
-    description: "Not ready to commit to six weeks? Come try one morning first. Same songs, same process art, same small group, with a grown-up right there beside them. <strong>Pick one date &middot; 10:00&ndash;10:45 AM &middot; Ages birth to 4</strong> &middot; Your $25 comes off the 6-week fall session when you enroll.",
-    buttonLabel: "Try a Class for $25",
-    link: "https://www.gabrielsartkids.com/toddlermusic.html",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-6692_orig.jpeg",
-    dateLabel: "Pick one: Aug 1, Aug 8, or Aug 14, 2026",
-    schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
-  },
+
 
     /* ============ Art of Me: Self Portraits — 5th–HS  -  weekly Mondays (Zannie) ============ */
   {
