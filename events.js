@@ -236,7 +236,26 @@ var ALL_EVENTS = [
     dateLabel: "Tuesdays, Sept 8 – Dec 22 · 8:30–9:30 PM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"20:30", endTime:"21:30", skip:[] }
   },
- 
+ /* ============ Restorative Movement  -  weekly Mondays (Brittany Parker) ============ */
+  {
+    id: "restorative_movement",
+    pages: ["GAK","GAC"],
+    title: "Restorative Movement",
+    category: "dance",
+    tags: ["Adults","Dance","Wellness","Drop-In"],
+    teacher: "brittany",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$25 drop-in",
+    spots: "15 spots per class",
+    hook: "No dance experience needed",
+    description: "Move, express, connect. A class that blends movement, emotional expression and community &mdash; built around releasing what no longer serves you and creating restorative habits you carry beyond the studio. Open to all levels of movement, and no dance experience is required. <strong>Mondays, 12:00&ndash;1:00 PM</strong> with Brittany Parker. Ages 18+. Drop in for a single class, 15 spots each week.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-restorative-movement_orig.jpg",
+    dateLabel: "Mondays, Sept 14 – Dec 21 · 12:00–1:00 PM",
+    schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-12-21", startTime:"12:00", endTime:"13:00", skip:[] }
+  },
 
   /* ============ 12) Sketch & Pet at NEKO  -  once ============ */
   {
