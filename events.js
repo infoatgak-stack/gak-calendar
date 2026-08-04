@@ -370,6 +370,27 @@ var ALL_EVENTS = [
     dateLabel: "Pick one: Aug 1, Aug 8, or Aug 14, 2026",
     schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
   },
+
+    /* ============ Art of Me: Self Portraits — 5th–HS  -  weekly Mondays (Zannie) ============ */
+  {
+    id: "art_of_me_5hs",
+    pages: ["GAK","GAC"],
+    title: "Art of Me: Self Portraits (5th–HS)",
+    category: "specialty",
+    tags: ["Younger Students","Teens","Drawing","Homeschool"],
+    teacher: "zannie",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$35 per class",
+    spots: "15 spots per class",
+    hook: "Every face has a story — make yours",
+    description: "Who are you &mdash; and how do you show it? In this ongoing series, artists explore identity through the self-portrait tradition, drawing inspiration from history-makers and artmakers alike: Dr. MLK in January, Women's History honorees in February, and more throughout the year. Each month brings a new face and a new story, always your own. <strong>Mondays, 12:00&ndash;1:30 PM</strong> with Zannie DeMarco. 5th grade through high school, homeschool friendly. All materials provided.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-art-of-me-self-portraits_orig.jpg",
+    dateLabel: "Mondays, Sept 14 – Nov 16 · 12:00–1:30 PM",
+    schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-11-16", startTime:"12:00", endTime:"13:30", skip:["2026-11-09"] }
+  },
  
   /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly ============ */
   {
