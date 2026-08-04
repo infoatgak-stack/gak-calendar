@@ -455,6 +455,28 @@ var ALL_EVENTS = [
     dateLabel: "Wednesdays, Sept 9 – Nov 18 · 12:00–1:30 PM",
     schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-11-18", startTime:"12:00", endTime:"13:30", skip:["2026-11-04","2026-11-11"] }
   },
+
+    /* ============ Reverse Perspective: Art That Follows You!  -  weekly Fridays (Zannie) ============
+     ONE session = BOTH blocks the same day: 10:00–12:00, break, 12:30–2:30. $80 covers the pair. */
+  {
+    id: "reverse_perspective",
+    pages: ["GAK","GAC"],
+    title: "Reverse Perspective: Art That Follows You!",
+    category: "specialty",
+    tags: ["Teens","Drawing","Homeschool","STEAM"],
+    teacher: "zannie",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$80 for the full day",
+    spots: "15 spots per day",
+    hook: "Your artwork follows you across the room",
+    description: "Inspired by the optical illusions of artist Patrick Hughes, students explore the mind-bending world of reverse perspective. Using folded paper, rulers, drawing techniques and vibrant colour, they build a three-dimensional hallway, room or gallery that appears to move and shift as you walk past it. Art, geometry, engineering and a little visual magic all at once. <strong>Fridays &mdash; a full day in two blocks: 10:00 AM&ndash;12:00 PM, break, then 12:30&ndash;2:30 PM.</strong> Both blocks are one session. With Zannie DeMarco. 6th grade through high school, homeschool friendly. All materials provided.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-reverse-perspective_orig.jpg",
+    dateLabel: "Fridays, Sept 11 – Nov 20 · 10:00–12:00 & 12:30–2:30",
+    schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-11-20", startTime:"10:00", endTime:"14:30", skip:["2026-11-06","2026-11-13"] }
+  },
    
   /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly ============ */
   {
