@@ -255,6 +255,36 @@ var ALL_EVENTS = [
   },
 
 
+    /* ============ Dance Day  -  once (Brittany Parker) ============ */
+  {
+    id: "dance_day_aug23",
+    pages: ["GAK","GAC"],
+    title: "Dance Day",
+    category: "dance",
+    tags: ["Teens","Adults","Dance","Open Level"],
+    teacher: "brittany",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+ 
+    /* ⚠️ PICK ONE — delete the other line before you commit */
+    price: "Free",
+ 
+    spots: "15 dancers at a time \u00b7 first come, first served",
+    hook: "Three classes, one morning — come try it",
+    description: "Meet your teacher, move a little, and try the styles launching at Gabriel's Art Center this fall. Three open-level classes back to back &mdash; no dance experience needed for any of them. <strong>Contemporary Movement 10:00&ndash;11:00</strong>, <strong>Dance/Pom Fusion 11:00&ndash;11:30</strong> (poms provided), and <strong>Restorative Movement 11:30&ndash;12:00</strong>. Ages 16 and up. Each class takes 15 dancers at a time, first come first served, so come a few minutes early and you'll be all set. Stay after for a smoothie social.",
+    buttonLabel: "See the Details",
+    link: "https://www.gabrielsartkids.com/gabriels-art-center.html",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-dance-day_orig.jpg",
+    media: [
+      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-open-level-contemporary_orig.jpg", caption:"10:00–11:00 · Contemporary Movement, open level" },
+      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-pom-dance-fusion_orig.jpg", caption:"11:00–11:30 · Dance/Pom Fusion, poms provided" },
+      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-restorative-movement_orig.jpg", caption:"11:30–12:00 · Restorative Movement, all levels" }
+    ],
+    featured: true,
+    schedule: { type:"once", date:"2026-08-23", startTime:"10:00", endTime:"12:00" }
+  }
+ 
+
     /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
   {
     id: "toddler_music_trial_aug2026",
