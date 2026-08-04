@@ -301,6 +301,27 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-11-16", startTime:"10:00", endTime:"11:30", skip:["2026-11-09"] }
   },
 
+  /* ============ Art of Me: Self Portraits — Adults  -  weekly Mondays (Zannie) ============ */
+  {
+    id: "art_of_me_adults",
+    pages: ["GAK","GAC"],
+    title: "Art of Me: Self Portraits (Adults)",
+    category: "specialty",
+    tags: ["Adults","Drawing","Mixed Media","Drop-In"],
+    teacher: "zannie",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$40 per class",
+    spots: "15 spots per class",
+    hook: "Two hours to yourself, once a week",
+    description: "Who are you &mdash; and how do you show it? An ongoing series exploring identity through the self-portrait tradition, drawing inspiration from history-makers and artmakers alike: Dr. MLK in January, Women's History honorees in February, and more throughout the year. As the series continues it opens up beyond drawing into other mediums. Two unhurried hours, no experience needed. <strong>Mondays, 3:00&ndash;5:00 PM</strong> with Zannie DeMarco. Ages 18+. All materials provided.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-art-of-me-self-portraits_orig.jpg",
+    dateLabel: "Mondays, Sept 14 – Nov 16 · 3:00–5:00 PM",
+    schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-11-16", startTime:"15:00", endTime:"17:00", skip:["2026-11-09"] }
+  },
+   
   /* ============ 13) First Friday Art Walk: GAC Soft Opening  -  once (FEATURED) ============ */
   {
     id: "gac_art_walk_aug7",
