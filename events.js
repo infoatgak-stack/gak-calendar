@@ -279,22 +279,26 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-12-21", startTime:"12:00", endTime:"13:00", skip:[] }
   },
 
-  /* ============ 12) Sketch & Pet at NEKO  -  once ============ */
+
+    /* ============ Art of Me: Self Portraits — K–4th  -  weekly Mondays (Zannie) ============ */
   {
-    id: "neko_sketch_pet",
-    pages: ["GAK"],
-    title: "Sketch & Pet: Observational Cat Drawing",
+    id: "art_of_me_k4",
+    pages: ["GAK","GAC"],
+    title: "Art of Me: Self Portraits (K–4th)",
     category: "specialty",
-    tags: ["All Ages","Drawing"],
-    venueLabel: "NEKO Bellingham",
-    location: "NEKO Cat Cafe, Bellingham, WA",
-    price: "$30",
-    hook: "Draw the kitties, all levels welcome",
-    description: "A drawing class with the cutest live models around! Join GAK at NEKO for an observational drawing session with the kitties as your subjects. For all ages and all skill levels, paper, pencils, charcoal, and other sketching supplies purrvided by GAK.",
-    buttonLabel: "Register Now",
-    link: "https://book.peek.com/s/9be0c799-6cbe-4ddb-aa08-66c64af3043d/aD2d6",
-    image: "https://www.nekocatcafe.com/asset/6a43f41566c3b/download-56.jpeg?w=400&h=400&fit=crop&fm=webp",
-    schedule: { type:"once", date:"2026-07-23", startTime:"17:00", endTime:"19:00" }
+    tags: ["Younger Students","Drawing","Homeschool","Drop-In"],
+    teacher: "zannie",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$35 per class",
+    spots: "15 spots per class",
+    hook: "Every face has a story — make yours",
+    description: "Who are you &mdash; and how do you show it? In this ongoing series, young artists explore identity through the self-portrait tradition, drawing inspiration from history-makers and artmakers alike: Dr. MLK in January, Women's History honorees in February, and more throughout the year. Each month brings a new face and a new story, always their own. <strong>Mondays, 10:00&ndash;11:30 AM</strong> with Zannie DeMarco. Kindergarten&ndash;4th grade, homeschool friendly. All materials provided.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-art-of-me-self-portraits_orig.jpg",
+    dateLabel: "Mondays, Sept 14 – Nov 16 · 10:00–11:30 AM",
+    schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-11-16", startTime:"10:00", endTime:"11:30", skip:["2026-11-09"] }
   },
 
   /* ============ 13) First Friday Art Walk: GAC Soft Opening  -  once (FEATURED) ============ */
