@@ -413,6 +413,27 @@ var ALL_EVENTS = [
     dateLabel: "Mondays, Sept 14 – Nov 16 · 12:00–1:30 PM",
     schedule: { type:"weekly", weekday:1, anchor:"2026-09-14", until:"2026-11-16", startTime:"12:00", endTime:"13:30", skip:["2026-11-09"] }
   },
+
+   /* ============ Wonderfully Weird: Tim Burton — K–4th  -  weekly Wednesdays (Zannie) ============ */
+  {
+    id: "wonderfully_weird_k4",
+    pages: ["GAK","GAC"],
+    title: "Wonderfully Weird: Tim Burton (K–4th)",
+    category: "specialty",
+    tags: ["Younger Students","Drawing","Homeschool","Drop-In"],
+    teacher: "zannie",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$35 per class",
+    spots: "15 spots per class",
+    hook: "Where art gets delightfully dark",
+    description: "Spirals, stripes, and gorgeously gloomy imagination &mdash; this weekly class dives into the strange and stunning world of Tim Burton's art. Each week brings a new technique and medium (think vellum ghosts, sharpie shadows, and paper-cut silhouettes) inspired by Burton's signature style. Perfect for kids who love a little spooky in their sketchbook. <strong>Wednesdays, 10:00&ndash;11:30 AM</strong> with Zannie DeMarco. Kindergarten&ndash;4th grade, homeschool friendly. All materials provided.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-wonderfully-weird-tim-burton_orig.jpg",
+    dateLabel: "Wednesdays, Sept 9 – Nov 18 · 10:00–11:30 AM",
+    schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-11-18", startTime:"10:00", endTime:"11:30", skip:["2026-11-04","2026-11-11"] }
+  },
  
   /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly ============ */
   {
