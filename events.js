@@ -434,7 +434,50 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-08-23", startTime:"10:00", endTime:"12:00" }
   },
 
+/* ============ 3rd–5th Grade Ceramics — AFTERNOON  -  8 weeks, Wednesdays (Haley Holmgren) ============
+     $280 is the price for the WHOLE 8-week course, not per class. 8 seats, this slot only.
+     Sister section runs the same Wednesdays at 5:45–7:00 PM — separate booking, separate 8 seats. */
+  {
+    id: "ceramics_3_5_wed_afternoon",
+    pages: ["GAK","GAC"],
+    title: "3rd–5th Grade Ceramics (Afternoon)",
+    category: "pottery",
+    tags: ["Younger Students","Ceramics","Wheel Throwing","After School"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$280 for the 8-week course",
+    spots: "8 students",
+    hook: "Let imagination take shape in clay",
+    description: "A fun-filled clay adventure with Teacher Haley. Young artists learn hand-building and wheel throwing while creating one-of-a-kind ceramic projects &mdash; from playful sculptures to functional pottery. Every class is a chance to get creative, get a little messy, and make something amazing. Projects are glazed, kiln-fired and ready to take home once they're finished. <strong>8 Wednesdays, 2:45&ndash;4:00 PM</strong> with Haley Holmgren. Grades 3rd&ndash;5th. All materials and tools included. One booking covers the whole 8 weeks.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-handbuilding_orig.jpg",
+    dateLabel: "8 Wednesdays, Sept 9 – Oct 28 · 2:45–4:00 PM",
+    schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-10-28", startTime:"14:45", endTime:"16:00", skip:[] }
+  },
 
+  /* ============ 3rd–5th Grade Ceramics — EVENING  -  8 weeks, Wednesdays (Haley Holmgren) ============
+     Same course, later slot. Separate booking and separate 8 seats from the 2:45 PM section. */
+  {
+    id: "ceramics_3_5_wed_evening",
+    pages: ["GAK","GAC"],
+    title: "3rd–5th Grade Ceramics (Evening)",
+    category: "pottery",
+    tags: ["Younger Students","Ceramics","Wheel Throwing","After School"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$280 for the 8-week course",
+    spots: "8 students",
+    hook: "Let imagination take shape in clay",
+    description: "A fun-filled clay adventure with Teacher Haley. Young artists learn hand-building and wheel throwing while creating one-of-a-kind ceramic projects &mdash; from playful sculptures to functional pottery. Every class is a chance to get creative, get a little messy, and make something amazing. Projects are glazed, kiln-fired and ready to take home once they're finished. <strong>8 Wednesdays, 5:45&ndash;7:00 PM</strong> with Haley Holmgren. Grades 3rd&ndash;5th. All materials and tools included. Same course as the 2:45 PM section &mdash; pick whichever time works for your family. One booking covers the whole 8 weeks.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-handbuilding_orig.jpg",
+    dateLabel: "8 Wednesdays, Sept 9 – Oct 28 · 5:45–7:00 PM",
+    schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-10-28", startTime:"17:45", endTime:"19:00", skip:[] }
+  },
 
     /* ============ Art of Me: Self Portraits — 5th–HS  -  weekly Mondays (Zannie) ============ */
   {
