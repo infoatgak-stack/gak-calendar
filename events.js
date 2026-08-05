@@ -238,6 +238,29 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-10-27", startTime:"10:00", endTime:"11:30", skip:[] }
   },
 
+   /* ============ Visual Storytelling: Photography — Thursdays  -  8-week course (Radu Sava) ============
+     After-school section of the same course as the Tuesday one.
+     $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
+  {
+    id: "photography_visual_storytelling_thu",
+    pages: ["GAK","GAC"],
+    title: "Visual Storytelling: Photography (Thursdays)",
+    category: "specialty",
+    tags: ["Younger Students","Teens","Photography","Homeschool"],
+    teacher: "radu",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$225 for the 8-week course",
+    spots: "12 students",
+    hook: "Behind and in front of the lens",
+    description: "A photography class built to grow self-expression, creativity, confidence and teamwork. Through plenty of hands-on practice, students explore composition, lighting, long and short exposure, camera angles, portrait styles, in-camera effects and more &mdash; all while having fun behind and in front of the lens. Each week the group votes for a Photo of the Week, proudly displayed in the hallway. <strong>8 Thursdays, 3:30&ndash;5:00 PM</strong> with Radu Sava. 3rd grade through high school, homeschool friendly. One booking covers the whole course.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+    dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 3:30–5:00 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"15:30", endTime:"17:00", skip:[] }
+  },
+
    /* ============ Dance / Pom Fusion  -  weekly Tuesdays (Brittany Parker) ============ */
   {
     id: "pom_dance_fusion",
