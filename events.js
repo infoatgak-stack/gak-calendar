@@ -434,6 +434,33 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-08-23", startTime:"10:00", endTime:"12:00" }
   },
 
+/* ============ Adult Wheel Throwing  -  8 weeks, Fridays (Haley Holmgren) ============
+     $400 covers the whole 8-week course: 20 hrs instruction, all tools/materials, 25 lbs clay.
+     Max 10, minimum 4 to run.
+     ⚠️ IMAGE IS WRONG: this is the spare wheel photo, which shows a CHILD. Swap for an adult
+        shot before publishing — the doc has no adult wheel image yet.
+     NOTE: class tab lists teacher as "TBD (Holly St ceramics studio staff)"; calendar says Haley. */
+  {
+    id: "adult_wheel_throwing_fri",
+    pages: ["GAK","GAC"],
+    title: "Adult Wheel Throwing",
+    category: "pottery",
+    tags: ["Adults","Ceramics","Wheel Throwing","All Levels"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$400 for the 8-week course",
+    spots: "10 students",
+    hook: "Slow down, get your hands in the clay",
+    description: "Discover the art of wheel throwing in a relaxed, welcoming studio. Whether you're trying ceramics for the first time or building on previous experience, this class helps you grow at your own pace. You'll learn the fundamentals of throwing &mdash; centering, forming, trimming and glazing &mdash; while making functional pottery you'll be proud to use at home. With personalised instruction and plenty of studio time, you'll gain confidence and enjoy the rewarding process of making with clay. <strong>8 Fridays, 5:00&ndash;7:30 PM</strong> with Haley Holmgren. Ages 18 and up. Your $400 covers 20 hours of instruction, all tools and materials, 25 lbs of clay, glazing and kiln firing. Runs with a minimum of 4 students.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-wheel_orig.jpg",
+    dateLabel: "8 Fridays, Sept 18 – Nov 6 · 5:00–7:30 PM",
+    schedule: { type:"weekly", weekday:5, anchor:"2026-09-18", until:"2026-11-06", startTime:"17:00", endTime:"19:30", skip:[] }
+  },
+
+   
 /* ============ Middle School Ceramics  -  8 weeks, Thursdays (Haley Holmgren) ============
      $290 + $25 clay = $315 total. 11 seats. Includes van pickup from school.
      NOTE: the doc listed Sept 9/16/23/30 + Oct 7/14/21/28 under "Thursday", but those are
