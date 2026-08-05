@@ -163,7 +163,7 @@ var ALL_EVENTS = [
  /* ============ 1) End of Summer Plate Painting Night  -  once (FEATURED) ============ */
   {
     id: "ab_crepes_end_of_summer_paint",
-    pages: ["GAK","GAC"],
+    pages: ["GAK"],
     title: "End of Summer Plate Painting Night at AB Crepes",
     category: "pottery",
     tags: ["Adult Events","Paint & Sip","Ceramics"],
@@ -366,7 +366,7 @@ var ALL_EVENTS = [
     /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
   {
     id: "toddler_music_trial_aug2026",
-    pages: ["GAK","GAC"],
+    pages: ["GAK"],
     title: "Toddler Music & Art: Trial Class",
     category: "littles",
     tags: ["Whole Family","Toddlers","Trial Class"],
@@ -503,7 +503,7 @@ var ALL_EVENTS = [
   /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly ============ */
   {
     id: "toddler_music_fall_2026",
-    pages: ["GAK","GAC"],
+    pages: ["GAK"],
     title: "Toddler Music & Art: Fall 2026",
     category: "littles",
     tags: ["Whole Family","Toddlers"],
