@@ -434,6 +434,31 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-08-23", startTime:"10:00", endTime:"12:00" }
   },
 
+/* ============ Middle School Ceramics  -  8 weeks, Thursdays (Haley Holmgren) ============
+     $290 + $25 clay = $315 total. 11 seats. Includes van pickup from school.
+     NOTE: the doc listed Sept 9/16/23/30 + Oct 7/14/21/28 under "Thursday", but those are
+     Wednesdays (copied from the 3rd–5th row). Real Thursdays used below — verified against
+     the 2026 calendar, and against Haley already teaching 3rd–5th on Wednesday afternoons. */
+  {
+    id: "ceramics_middle_school_thu",
+    pages: ["GAK","GAC"],
+    title: "Middle School Ceramics",
+    category: "pottery",
+    tags: ["Younger Students","Teens","Ceramics","Wheel Throwing"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$290 + $25 clay fee",
+    spots: "11 students",
+    hook: "Wheel, handbuilding, and a van ride from school",
+    description: "Give your middle schooler the chance to explore ceramics in a fun, creative studio. Students learn both wheel throwing and handbuilding while making functional pottery and clay sculptures, building confidence and new skills as they work with clay from start to finish. Every project is glazed, kiln-fired and ready to take home. Whether your child is brand new to ceramics or has done it before, this is a welcoming space to learn, create and grow as an artist. <strong>8 Thursdays, 2:15&ndash;5:30 PM</strong> with Haley Holmgren. Grades 6th&ndash;8th. <strong>Van pickup from school included.</strong> All materials and tools included apart from the $25 clay fee.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-handbuilding_orig.jpg",
+    dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 2:15–5:30 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"14:15", endTime:"17:30", skip:[] }
+  },
+   
 /* ============ 3rd–5th Grade Ceramics — AFTERNOON  -  8 weeks, Wednesdays (Haley Holmgren) ============
      $280 is the price for the WHOLE 8-week course, not per class. 8 seats, this slot only.
      Sister section runs the same Wednesdays at 5:45–7:00 PM — separate booking, separate 8 seats. */
