@@ -238,6 +238,7 @@ var ALL_EVENTS = [
     media: [
       { type:"video",
         url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        link:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
         thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
         caption:"See a photography class in action" }
     ],
@@ -267,6 +268,7 @@ var ALL_EVENTS = [
     media: [
       { type:"video",
         url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        link:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
         thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
         caption:"See a photography class in action" }
     ],
