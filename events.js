@@ -130,28 +130,28 @@ var TEACHERS = {
     role: "Dance",
     color: "#5960B9",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-headshot_orig.jpg",
-    bio: "Brittany Parker is a Bellingham and Seattle-based choreographer, performer and movement instructor whose work lives at the intersection of accessibility, community and sustainable creative practice. She has worked across Seattle's drag and contemporary dance scenes, including with RuPaul's Drag Race alum BOSCO and 3rd Shift Dance Company, and in 2019 founded Coalescence Dance Company &mdash; now in its seventh season and touring the West Coast. She has taught weekly at Westlake Dance Center since 2018."
+    bio: "Brittany Parker is a Bellingham and Seattle-based choreographer, performer and movement instructor whose work lives at the intersection of accessibility, community and sustainable creative practice. She has worked across Seattle's drag and contemporary dance scenes, including with RuPaul's Drag Race alum BOSCO and 3rd Shift Dance Company, and in 2019 founded Coalescence Dance Company — now in its seventh season and touring the West Coast. She has taught weekly at Westlake Dance Center since 2018."
   },
   zannie: {
     name: "Zannie DeMarco",
     role: "Specialty Art",
     color: "#364f96",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-headshot_orig.jpg",
-    bio: "Zannie is a visual art educator with 27 years in the classroom &mdash; teaching K&ndash;5 art in Malibu, running programs in schools and orphanages in Haiti, and spending a decade integrating studio art and art history across New York City. She moved to Birch Bay in 2024 and now builds curriculum for Gabriel's Art Kids, teaching students of every age."
+    bio: "Zannie is a visual art educator with 27 years in the classroom — teaching K–5 art in Malibu, running programs in schools and orphanages in Haiti, and spending a decade integrating studio art and art history across New York City. She moved to Birch Bay in 2024 and now builds curriculum for Gabriel's Art Kids, teaching students of every age."
   },
   jeana: {
     name: "Jeana Esser-Lang",
-    role: "Mixed Media &amp; Printmaking",
+    role: "Mixed Media & Printmaking",
     color: "#20B2AA",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-headshot_orig.jpg",
-    bio: "Born in Louisiana amid crawfish boils and swirling hurricanes, Jeana brings a splash of Southern soul to Bellingham. She has taught art for over two decades and shown her own work for twice that long &mdash; a vibrant mix of whimsical wonder and sharp, edgy creativity. Loves Halloween and sharks. When she isn't covered in paint, she's a wife, mother, grandma and dedicated dog mom."
+    bio: "Born in Louisiana amid crawfish boils and swirling hurricanes, Jeana brings a splash of Southern soul to Bellingham. She has taught art for over two decades and shown her own work for twice that long — a vibrant mix of whimsical wonder and sharp, edgy creativity. Loves Halloween and sharks. When she isn't covered in paint, she's a wife, mother, grandma and dedicated dog mom."
   },
   radu: {
     name: "Radu Sava",
-    role: "Photography &amp; Film",
+    role: "Photography & Film",
     color: "#57A86A",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-headshot_orig.jpg",
-    bio: "Radu Sava has spent 25 years turning photography into storytelling &mdash; editorial and print campaigns, portraits on location and in the studio, product, events and nature work for clients across Europe and the US. He is also an award-winning filmmaker; his documentary <em>Not If, But When: Wildfire Solutions</em> streams on Amazon. Now in his 13th year teaching photography and video, he mentors students of all ages."
+    bio: "Radu Sava has spent 25 years turning photography into storytelling — editorial and print campaigns, portraits on location and in the studio, product, events and nature work for clients across Europe and the US. He is also an award-winning filmmaker; his documentary “Not If, But When: Wildfire Solutions” streams on Amazon. Now in his 13th year teaching photography and video, he mentors students of all ages."
   }
 };
 
