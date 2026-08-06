@@ -216,9 +216,8 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-07-16", startTime:"17:00", endTime:"19:00" }
   },
 
-  /* ============ Visual Storytelling: Photography — Tuesdays  -  8-week course (Radu Sava) ============
-     $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats.
-     media[] carries the class video — it plays inline in the detail popup. */
+   /* ============ Visual Storytelling: Photography — Tuesdays  -  8-week course (Radu Sava) ============
+     NOTE: $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
   {
     id: "photography_visual_storytelling_tue",
     pages: ["GAK","GAC"],
@@ -235,17 +234,10 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
-    media: [
-      { type:"video",
-        url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
-        link:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
-        thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
-        caption:"See a photography class in action" }
-    ],
     dateLabel: "8 Tuesdays, Sept 8 – Oct 27 · 10:00–11:30 AM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-10-27", startTime:"10:00", endTime:"11:30", skip:[] }
   },
- 
+
    /* ============ Visual Storytelling: Photography — Thursdays  -  8-week course (Radu Sava) ============
      After-school section of the same course as the Tuesday one.
      $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
@@ -265,18 +257,10 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
-    media: [
-      { type:"video",
-        url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
-        link:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
-        thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
-        caption:"See a photography class in action" }
-    ],
     dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 3:30–5:00 PM",
     schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"15:30", endTime:"17:00", skip:[] }
   },
 
-   
    /* ============ Dance / Pom Fusion  -  weekly Tuesdays (Brittany Parker) ============ */
   {
     id: "pom_dance_fusion",
@@ -547,7 +531,10 @@ var ALL_EVENTS = [
 
 /* ============ Adult Wheel Throwing  -  8 weeks, Fridays (Haley Holmgren) ============
      $400 covers the whole 8-week course: 20 hrs instruction, all tools/materials, 25 lbs clay.
-     Max 10, minimum 4 to run. */
+     Max 10, minimum 4 to run.
+     ⚠️ IMAGE IS WRONG: this is the spare wheel photo, which shows a CHILD. Swap for an adult
+        shot before publishing — the doc has no adult wheel image yet.
+     NOTE: class tab lists teacher as "TBD (Holly St ceramics studio staff)"; calendar says Haley. */
   {
     id: "adult_wheel_throwing_fri",
     pages: ["GAK","GAC"],
@@ -564,14 +551,11 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gachaleyholmgrenadultwheelthrowing_orig.jpg",
-    media: [
-      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gachaleyholmgrenadultwheelthrowingsquare_orig.jpg", caption:"Thrown, glazed and fired in the studio" },
-      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gachaleyholmgrenceramicsmugs_orig.jpg", caption:"Mugs from a recent session" }
-    ],
     dateLabel: "8 Fridays, Sept 18 – Nov 6 · 5:00–7:30 PM",
     schedule: { type:"weekly", weekday:5, anchor:"2026-09-18", until:"2026-11-06", startTime:"17:00", endTime:"19:30", skip:[] }
   },
-    
+
+   
 /* ============ Middle School Ceramics  -  8 weeks, Thursdays (Haley Holmgren) ============
      $290 + $25 clay = $315 total. 11 seats. Includes van pickup from school.
      NOTE: the doc listed Sept 9/16/23/30 + Oct 7/14/21/28 under "Thursday", but those are
