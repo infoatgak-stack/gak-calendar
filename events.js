@@ -130,28 +130,28 @@ var TEACHERS = {
     role: "Dance",
     color: "#5960B9",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-headshot_orig.jpg",
-    bio: "Brittany Parker is a Bellingham and Seattle-based choreographer, performer and movement instructor whose work lives at the intersection of accessibility, community and sustainable creative practice. She has worked across Seattle's drag and contemporary dance scenes, including with RuPaul's Drag Race alum BOSCO and 3rd Shift Dance Company, and in 2019 founded Coalescence Dance Company &mdash; now in its seventh season and touring the West Coast. She has taught weekly at Westlake Dance Center since 2018."
+    bio: "Brittany Parker is a Bellingham and Seattle-based choreographer, performer and movement instructor whose work lives at the intersection of accessibility, community and sustainable creative practice. She has worked across Seattle's drag and contemporary dance scenes, including with RuPaul's Drag Race alum BOSCO and 3rd Shift Dance Company, and in 2019 founded Coalescence Dance Company — now in its seventh season and touring the West Coast. She has taught weekly at Westlake Dance Center since 2018."
   },
   zannie: {
     name: "Zannie DeMarco",
     role: "Specialty Art",
     color: "#364f96",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-headshot_orig.jpg",
-    bio: "Zannie is a visual art educator with 27 years in the classroom &mdash; teaching K&ndash;5 art in Malibu, running programs in schools and orphanages in Haiti, and spending a decade integrating studio art and art history across New York City. She moved to Birch Bay in 2024 and now builds curriculum for Gabriel's Art Kids, teaching students of every age."
+    bio: "Zannie is a visual art educator with 27 years in the classroom — teaching K–5 art in Malibu, running programs in schools and orphanages in Haiti, and spending a decade integrating studio art and art history across New York City. She moved to Birch Bay in 2024 and now builds curriculum for Gabriel's Art Kids, teaching students of every age."
   },
   jeana: {
     name: "Jeana Esser-Lang",
-    role: "Mixed Media &amp; Printmaking",
+    role: "Mixed Media & Printmaking",
     color: "#20B2AA",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-headshot_orig.jpg",
-    bio: "Born in Louisiana amid crawfish boils and swirling hurricanes, Jeana brings a splash of Southern soul to Bellingham. She has taught art for over two decades and shown her own work for twice that long &mdash; a vibrant mix of whimsical wonder and sharp, edgy creativity. Loves Halloween and sharks. When she isn't covered in paint, she's a wife, mother, grandma and dedicated dog mom."
+    bio: "Born in Louisiana amid crawfish boils and swirling hurricanes, Jeana brings a splash of Southern soul to Bellingham. She has taught art for over two decades and shown her own work for twice that long — a vibrant mix of whimsical wonder and sharp, edgy creativity. Loves Halloween and sharks. When she isn't covered in paint, she's a wife, mother, grandma and dedicated dog mom."
   },
   radu: {
     name: "Radu Sava",
-    role: "Photography &amp; Film",
+    role: "Photography & Film",
     color: "#57A86A",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-headshot_orig.jpg",
-    bio: "Radu Sava has spent 25 years turning photography into storytelling &mdash; editorial and print campaigns, portraits on location and in the studio, product, events and nature work for clients across Europe and the US. He is also an award-winning filmmaker; his documentary <em>Not If, But When: Wildfire Solutions</em> streams on Amazon. Now in his 13th year teaching photography and video, he mentors students of all ages."
+    bio: "Radu Sava has spent 25 years turning photography into storytelling — editorial and print campaigns, portraits on location and in the studio, product, events and nature work for clients across Europe and the US. He is also an award-winning filmmaker; his documentary “Not If, But When: Wildfire Solutions” streams on Amazon. Now in his 13th year teaching photography and video, he mentors students of all ages."
   }
 };
 
@@ -234,8 +234,45 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+    media: [
+      { type:"video",
+        url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        link:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+        caption:"See a photography class in action" }
+    ],
     dateLabel: "8 Tuesdays, Sept 8 – Oct 27 · 10:00–11:30 AM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-10-27", startTime:"10:00", endTime:"11:30", skip:[] }
+  },
+
+   /* ============ Visual Storytelling: Photography — Thursdays  -  8-week course (Radu Sava) ============
+     After-school section of the same course as the Tuesday one.
+     $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
+  {
+    id: "photography_visual_storytelling_thu",
+    pages: ["GAK","GAC"],
+    title: "Visual Storytelling: Photography (Thursdays)",
+    category: "specialty",
+    tags: ["Younger Students","Teens","Photography","Homeschool"],
+    teacher: "radu",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$225 for the 8-week course",
+    spots: "12 students",
+    hook: "Behind and in front of the lens",
+    description: "A photography class built to grow self-expression, creativity, confidence and teamwork. Through plenty of hands-on practice, students explore composition, lighting, long and short exposure, camera angles, portrait styles, in-camera effects and more &mdash; all while having fun behind and in front of the lens. Each week the group votes for a Photo of the Week, proudly displayed in the hallway. <strong>8 Thursdays, 3:30&ndash;5:00 PM</strong> with Radu Sava. 3rd grade through high school, homeschool friendly. One booking covers the whole course.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+    media: [
+      { type:"video",
+        url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        link:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+        caption:"See a photography class in action" }
+    ],
+    dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 3:30–5:00 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"15:30", endTime:"17:00", skip:[] }
   },
 
    /* ============ Dance / Pom Fusion  -  weekly Tuesdays (Brittany Parker) ============ */
@@ -363,6 +400,101 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-08-07", startTime:"18:00", endTime:"22:00" }
   },
 
+
+   /* ============ Squish, Roll & Print — KIDS (Ages 6–12)  -  16 Tuesdays (Jeana Esser-Lang) ============
+     $260 covers the whole semester (16 classes). 15 seats. Adults section runs the same day at 1:00 PM.
+     NOTE: Gabriel's calendar omits Nov 24, but there are exactly 16 Tuesdays Sept 8 – Dec 22 and the
+     doc prices the semester at "16 classes", so Nov 24 is included here. Thanksgiving is a Thursday. */
+  {
+    id: "squish_roll_print_kids",
+    pages: ["GAK","GAC"],
+    title: "Squish, Roll & Print (Ages 6–12)",
+    category: "specialty",
+    tags: ["Younger Students","Printmaking","Mixed Media"],
+    teacher: "jeana",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$260 for the semester (16 classes)",
+    spots: "15 students",
+    hook: "Roll, stamp, and pull your own prints",
+    description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. Students make colorful, layered masterpieces, mixing colour right on the plate and building crazy textures with bubble wrap, yarn, legos and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 10:30 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12. All materials provided. One booking covers the whole semester.",
+    buttonLabel: "Book the Semester",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-squish-roll-print_orig.jpg",
+    dateLabel: "16 Tuesdays, Sept 8 – Dec 22 · 10:30 AM–12:00 PM",
+    schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"10:30", endTime:"12:00", skip:[] }
+  },
+
+  /* ============ Squish, Roll & Print — ADULTS / SENIORS  -  16 Tuesdays (Jeana Esser-Lang) ============
+     Same course, afternoon slot. $340 for the semester. Separate booking, separate 15 seats. */
+  {
+    id: "squish_roll_print_adults",
+    pages: ["GAK","GAC"],
+    title: "Squish, Roll & Print (Adults & Seniors)",
+    category: "specialty",
+    tags: ["Adults","Seniors","Printmaking","Mixed Media"],
+    teacher: "jeana",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$340 for the semester (16 classes)",
+    spots: "15 students",
+    hook: "Roll, stamp, and pull your own prints",
+    description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. You'll make colorful, layered work, mixing colour right on the plate and building rich textures with bubble wrap, yarn and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. All materials provided. One booking covers the whole semester.",
+    buttonLabel: "Book the Semester",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-squish-roll-print_orig.jpg",
+    dateLabel: "16 Tuesdays, Sept 8 – Dec 22 · 1:00–2:30 PM",
+    schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"13:00", endTime:"14:30", skip:[] }
+  },
+
+  /* ============ Finding Calm Through Color  -  14 Thursdays (Jeana Esser-Lang) ============
+     $490 covers the whole semester (14 classes). 15 seats.
+     NOTE: the doc listed Sept 9/16/23/30 + Oct 7/14/21/28 under "Thursday" — those are Wednesdays.
+     Corrected to real Thursdays. Skips Thanksgiving Day, Thu Nov 26. 15 Thursdays minus 1 = 14,
+     which matches the doc's "semester (14 classes)" exactly. */
+  {
+    id: "finding_calm_through_color",
+    pages: ["GAK","GAC"],
+    title: "Finding Calm Through Color",
+    category: "specialty",
+    tags: ["Adults","Seniors","Watercolor","All Levels"],
+    teacher: "jeana",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$490 for the semester (14 classes)",
+    spots: "15 students",
+    hook: "Take a break from the world and make magic with color",
+    description: "A meditative watercolor painting class for relaxation. Take a break from the world and make magic with colour and flow. Beginners and all levels welcome &mdash; this is about the calm as much as the painting. <strong>Thursdays, 10:00 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. All materials provided, including watercolour palettes, colored pencils, oil pastels, gel pens and watercolour paper. One booking covers the whole semester.",
+    buttonLabel: "Book the Semester",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-finding-calm-through-color_orig.jpg",
+    dateLabel: "14 Thursdays, Sept 10 – Dec 17 · 10:00 AM–12:00 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-12-17", startTime:"10:00", endTime:"12:00", skip:["2026-11-26"] }
+  },
+
+  /* ============ Beginner Watercolor and Mixed Media  -  14 Thursdays (Jeana Esser-Lang) ============
+     $390 covers the whole semester (14 classes). 15 seats. Same Thursday date fix and
+     Thanksgiving skip as Finding Calm. */
+  {
+    id: "beginner_watercolor_mixed_media",
+    pages: ["GAK","GAC"],
+    title: "Beginner Watercolor and Mixed Media",
+    category: "specialty",
+    tags: ["Younger Students","Watercolor","Mixed Media","Homeschool"],
+    teacher: "jeana",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$390 for the semester (14 classes)",
+    spots: "15 students",
+    hook: "Washes, crayon resist, and a little magic",
+    description: "Kids learn basic watercolour techniques to create simple but amazing artwork &mdash; vibrant washes pulled over white crayon or oil pastel, plus ink and other media, to make magical mixed-media creations. <strong>Thursdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12, homeschool friendly. All materials provided, including watercolours, brushes, oil pastels and watercolour paper. One booking covers the whole semester.",
+    buttonLabel: "Book the Semester",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-beginner-watercolor-mixed-media_orig.jpg",
+    dateLabel: "14 Thursdays, Sept 10 – Dec 17 · 1:00–2:30 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-12-17", startTime:"13:00", endTime:"14:30", skip:["2026-11-26"] }
+  },
+
     /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
   {
     id: "toddler_music_trial_aug2026",
@@ -383,7 +515,9 @@ var ALL_EVENTS = [
     schedule: { type:"dates", dates:["2026-08-01","2026-08-08","2026-08-14"], startTime:"10:00", endTime:"10:45" }
   },
    
-    /* ============ Dance Day  -  once (Brittany Parker) ============ */
+/* ============ Dance Day  -  once, Sunday Aug 23 2026 (Brittany Parker) ============
+     FREE open house. Sign-up is the $0 "Dance Day - Free Open House" product on the
+     shared GAC Classes Jotform (261687139050055). Walk-ins still welcome. */
   {
     id: "dance_day_aug23",
     pages: ["GAK","GAC"],
@@ -393,15 +527,12 @@ var ALL_EVENTS = [
     teacher: "brittany",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
- 
-    /* ⚠️ PICK ONE — delete the other line before you commit */
     price: "Free",
- 
-    spots: "15 dancers at a time \u00b7 first come, first served",
+    spots: "15 dancers at a time · first come, first served",
     hook: "Three classes, one morning — come try it",
-    description: "Meet your teacher, move a little, and try the styles launching at Gabriel's Art Center this fall. Three open-level classes back to back &mdash; no dance experience needed for any of them. <strong>Contemporary Movement 10:00&ndash;11:00</strong>, <strong>Dance/Pom Fusion 11:00&ndash;11:30</strong> (poms provided), and <strong>Restorative Movement 11:30&ndash;12:00</strong>. Ages 16 and up. Each class takes 15 dancers at a time, first come first served, so come a few minutes early and you'll be all set. Stay after for a smoothie social.",
-    buttonLabel: "See the Details",
-    link: "https://www.gabrielsartkids.com/gabriels-art-center.html",
+    description: "Meet your teacher, move a little, and try the styles launching at Gabriel's Art Center this fall. Three open-level classes back to back &mdash; no dance experience needed for any of them. <strong>Contemporary Movement 10:00&ndash;11:00</strong>, <strong>Dance/Pom Fusion 11:00&ndash;11:30</strong> (poms provided), and <strong>Restorative Movement 11:30&ndash;12:00</strong>. Ages 16 and up. Each class takes 15 dancers at a time, first come first served, so come a few minutes early and you'll be all set. Stay after for a smoothie social. Free to join &mdash; save your spot so Brittany knows to expect you, or just show up.",
+    buttonLabel: "Save Your Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-dance-day_orig.jpg",
     media: [
       { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-open-level-contemporary_orig.jpg", caption:"10:00–11:00 · Contemporary Movement, open level" },
@@ -411,9 +542,107 @@ var ALL_EVENTS = [
     featured: true,
     schedule: { type:"once", date:"2026-08-23", startTime:"10:00", endTime:"12:00" }
   },
- 
 
+/* ============ Adult Wheel Throwing  -  8 weeks, Fridays (Haley Holmgren) ============
+     $400 covers the whole 8-week course: 20 hrs instruction, all tools/materials, 25 lbs clay.
+     Max 10, minimum 4 to run.
+     ⚠️ IMAGE IS WRONG: this is the spare wheel photo, which shows a CHILD. Swap for an adult
+        shot before publishing — the doc has no adult wheel image yet.
+     NOTE: class tab lists teacher as "TBD (Holly St ceramics studio staff)"; calendar says Haley. */
+  {
+    id: "adult_wheel_throwing_fri",
+    pages: ["GAK","GAC"],
+    title: "Adult Wheel Throwing",
+    category: "pottery",
+    tags: ["Adults","Ceramics","Wheel Throwing","All Levels"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$400 for the 8-week course",
+    spots: "10 students",
+    hook: "Slow down, get your hands in the clay",
+    description: "Discover the art of wheel throwing in a relaxed, welcoming studio. Whether you're trying ceramics for the first time or building on previous experience, this class helps you grow at your own pace. You'll learn the fundamentals of throwing &mdash; centering, forming, trimming and glazing &mdash; while making functional pottery you'll be proud to use at home. With personalised instruction and plenty of studio time, you'll gain confidence and enjoy the rewarding process of making with clay. <strong>8 Fridays, 5:00&ndash;7:30 PM</strong> with Haley Holmgren. Ages 18 and up. Your $400 covers 20 hours of instruction, all tools and materials, 25 lbs of clay, glazing and kiln firing. Runs with a minimum of 4 students.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gachaleyholmgrenadultwheelthrowing_orig.jpg",
+    media: [
+      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gachaleyholmgrenadultwheelthrowingsquare_orig.jpg", caption:"Thrown, glazed and fired in the studio" },
+      { type:"image", url:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gachaleyholmgrenceramicsmugs_orig.jpg", caption:"Mugs from a recent session" }
+    ],
+    dateLabel: "8 Fridays, Sept 18 – Nov 6 · 5:00–7:30 PM",
+    schedule: { type:"weekly", weekday:5, anchor:"2026-09-18", until:"2026-11-06", startTime:"17:00", endTime:"19:30", skip:[] }
+  },
 
+   
+/* ============ Middle School Ceramics  -  8 weeks, Thursdays (Haley Holmgren) ============
+     $290 + $25 clay = $315 total. 11 seats. Includes van pickup from school.
+     NOTE: the doc listed Sept 9/16/23/30 + Oct 7/14/21/28 under "Thursday", but those are
+     Wednesdays (copied from the 3rd–5th row). Real Thursdays used below — verified against
+     the 2026 calendar, and against Haley already teaching 3rd–5th on Wednesday afternoons. */
+  {
+    id: "ceramics_middle_school_thu",
+    pages: ["GAK","GAC"],
+    title: "Middle School Ceramics",
+    category: "pottery",
+    tags: ["Younger Students","Teens","Ceramics","Wheel Throwing"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$290 + $25 clay fee",
+    spots: "11 students",
+    hook: "Wheel, handbuilding, and a van ride from school",
+    description: "Give your middle schooler the chance to explore ceramics in a fun, creative studio. Students learn both wheel throwing and handbuilding while making functional pottery and clay sculptures, building confidence and new skills as they work with clay from start to finish. Every project is glazed, kiln-fired and ready to take home. Whether your child is brand new to ceramics or has done it before, this is a welcoming space to learn, create and grow as an artist. <strong>8 Thursdays, 2:15&ndash;5:30 PM</strong> with Haley Holmgren. Grades 6th&ndash;8th. <strong>Van pickup from school included.</strong> All materials and tools included apart from the $25 clay fee.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-handbuilding_orig.jpg",
+    dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 2:15–5:30 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"14:15", endTime:"17:30", skip:[] }
+  },
+   
+/* ============ 3rd–5th Grade Ceramics — AFTERNOON  -  8 weeks, Wednesdays (Haley Holmgren) ============
+     $280 is the price for the WHOLE 8-week course, not per class. 8 seats, this slot only.
+     Sister section runs the same Wednesdays at 5:45–7:00 PM — separate booking, separate 8 seats. */
+  {
+    id: "ceramics_3_5_wed_afternoon",
+    pages: ["GAK","GAC"],
+    title: "3rd–5th Grade Ceramics (Afternoon)",
+    category: "pottery",
+    tags: ["Younger Students","Ceramics","Wheel Throwing","After School"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$280 for the 8-week course",
+    spots: "8 students",
+    hook: "Let imagination take shape in clay",
+    description: "A fun-filled clay adventure with Teacher Haley. Young artists learn hand-building and wheel throwing while creating one-of-a-kind ceramic projects &mdash; from playful sculptures to functional pottery. Every class is a chance to get creative, get a little messy, and make something amazing. Projects are glazed, kiln-fired and ready to take home once they're finished. <strong>8 Wednesdays, 2:45&ndash;4:00 PM</strong> with Haley Holmgren. Grades 3rd&ndash;5th. All materials and tools included. One booking covers the whole 8 weeks.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-handbuilding_orig.jpg",
+    dateLabel: "8 Wednesdays, Sept 9 – Oct 28 · 2:45–4:00 PM",
+    schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-10-28", startTime:"14:45", endTime:"16:00", skip:[] }
+  },
+
+  /* ============ 3rd–5th Grade Ceramics — EVENING  -  8 weeks, Wednesdays (Haley Holmgren) ============
+     Same course, later slot. Separate booking and separate 8 seats from the 2:45 PM section. */
+  {
+    id: "ceramics_3_5_wed_evening",
+    pages: ["GAK","GAC"],
+    title: "3rd–5th Grade Ceramics (Evening)",
+    category: "pottery",
+    tags: ["Younger Students","Ceramics","Wheel Throwing","After School"],
+    teacher: "haley",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$280 for the 8-week course",
+    spots: "8 students",
+    hook: "Let imagination take shape in clay",
+    description: "A fun-filled clay adventure with Teacher Haley. Young artists learn hand-building and wheel throwing while creating one-of-a-kind ceramic projects &mdash; from playful sculptures to functional pottery. Every class is a chance to get creative, get a little messy, and make something amazing. Projects are glazed, kiln-fired and ready to take home once they're finished. <strong>8 Wednesdays, 5:45&ndash;7:00 PM</strong> with Haley Holmgren. Grades 3rd&ndash;5th. All materials and tools included. Same course as the 2:45 PM section &mdash; pick whichever time works for your family. One booking covers the whole 8 weeks.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-ceramics-handbuilding_orig.jpg",
+    dateLabel: "8 Wednesdays, Sept 9 – Oct 28 · 5:45–7:00 PM",
+    schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-10-28", startTime:"17:45", endTime:"19:00", skip:[] }
+  },
 
     /* ============ Art of Me: Self Portraits — 5th–HS  -  weekly Mondays (Zannie) ============ */
   {
