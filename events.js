@@ -216,8 +216,9 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-07-16", startTime:"17:00", endTime:"19:00" }
   },
 
-   /* ============ Visual Storytelling: Photography — Tuesdays  -  8-week course (Radu Sava) ============
-     NOTE: $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
+  /* ============ Visual Storytelling: Photography — Tuesdays  -  8-week course (Radu Sava) ============
+     $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats.
+     media[] carries the class video — it plays inline in the detail popup. */
   {
     id: "photography_visual_storytelling_tue",
     pages: ["GAK","GAC"],
@@ -234,10 +235,16 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+    media: [
+      { type:"video",
+        url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+        caption:"See a photography class in action" }
+    ],
     dateLabel: "8 Tuesdays, Sept 8 – Oct 27 · 10:00–11:30 AM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-10-27", startTime:"10:00", endTime:"11:30", skip:[] }
   },
-
+ 
    /* ============ Visual Storytelling: Photography — Thursdays  -  8-week course (Radu Sava) ============
      After-school section of the same course as the Tuesday one.
      $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
@@ -257,10 +264,17 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+    media: [
+      { type:"video",
+        url:"https://www.gabrielsartkids.com/uploads/b/4556661-933461691916567634/24-25gakphotoclasses1_1_732.mp4",
+        thumb:"https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+        caption:"See a photography class in action" }
+    ],
     dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 3:30–5:00 PM",
     schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"15:30", endTime:"17:00", skip:[] }
   },
 
+   
    /* ============ Dance / Pom Fusion  -  weekly Tuesdays (Brittany Parker) ============ */
   {
     id: "pom_dance_fusion",
