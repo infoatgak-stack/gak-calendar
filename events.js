@@ -1,5 +1,5 @@
 /* =====================================================================
-   GAK / GAC  -  events.js  -  THE ONE LIST EVERYTHING READS
+   GAK / GAC  -  events.js  -  THE ONE LIST EVERYTHING READSs
    =====================================================================
    This single file feeds:
      - the homepage carousel + calendar
