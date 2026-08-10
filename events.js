@@ -1,5 +1,5 @@
 /* =====================================================================
-   GAK / GAC  -  events.js  -  THE ONE LIST EVERYTHING READSs
+   GAK / GAC  -  events.js  -  THE ONE LIST EVERYTHING READS
    =====================================================================
    This single file feeds:
      - the homepage carousel + calendar
@@ -169,7 +169,7 @@ var ALL_EVENTS = [
     tags: ["Adult Events","Paint & Sip","Ceramics"],
     teacher: "haley",
     location: "AB Crepes, downtown Bellingham, WA",
-    price: "Limited to 10 spots",
+    spots: "Limited to 10 spots",
     hook: "One special night, plates hand-thrown in our studio",
     description: "Our End of Summer Plate Painting Night! Paint a hand-thrown ceramic plate made in our studio, guided by instructor Haley. <strong>Tuesday, August 18 &middot; 6:00&ndash;8:30 PM</strong> &middot; AB Crepes, downtown Bellingham &middot; Limited to 10 spots!",
     buttonLabel: "Register Now",
@@ -402,9 +402,9 @@ var ALL_EVENTS = [
 
 
    /* ============ Squish, Roll & Print — KIDS (Ages 6–12)  -  16 Tuesdays (Jeana Esser-Lang) ============
-     $260 covers the whole semester (16 classes). 15 seats. Adults section runs the same day at 1:00 PM.
-     NOTE: Gabriel's calendar omits Nov 24, but there are exactly 16 Tuesdays Sept 8 – Dec 22 and the
-     doc prices the semester at "16 classes", so Nov 24 is included here. Thanksgiving is a Thursday. */
+     $35 per class, 1.5 hours. 15 seats. Adults section runs the same day at 1:00 PM.
+     NOTE: Gabriel's calendar omits Nov 24, but there are exactly 16 Tuesdays Sept 8 – Dec 22
+     and Thanksgiving is a Thursday, so Nov 24 is a normal class day and stays in. */
   {
     id: "squish_roll_print_kids",
     pages: ["GAK","GAC"],
@@ -414,19 +414,19 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$260 for the semester (16 classes)",
-    spots: "15 students",
+    price: "$35 per class",
+    spots: "15 spots per class",
     hook: "Roll, stamp, and pull your own prints",
-    description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. Students make colorful, layered masterpieces, mixing colour right on the plate and building crazy textures with bubble wrap, yarn, legos and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 10:30 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12. All materials provided. One booking covers the whole semester.",
-    buttonLabel: "Book the Semester",
+    description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. Students make colorful, layered masterpieces, mixing color right on the plate and building crazy textures with bubble wrap, yarn, legos and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 10:30 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12. All materials provided. Come for one class or every week &mdash; pick your date when you book.",
+    buttonLabel: "Book a Spot",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-squish-roll-print_orig.jpg",
-    dateLabel: "16 Tuesdays, Sept 8 – Dec 22 · 10:30 AM–12:00 PM",
+    dateLabel: "Tuesdays, Sept 8 – Dec 22 · 10:30 AM–12:00 PM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"10:30", endTime:"12:00", skip:[] }
   },
 
   /* ============ Squish, Roll & Print — ADULTS / SENIORS  -  16 Tuesdays (Jeana Esser-Lang) ============
-     Same course, afternoon slot. $340 for the semester. Separate booking, separate 15 seats. */
+     Same class, afternoon slot. $35 per class, 1.5 hours. Separate booking, separate 15 seats. */
   {
     id: "squish_roll_print_adults",
     pages: ["GAK","GAC"],
@@ -436,22 +436,22 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$340 for the semester (16 classes)",
-    spots: "15 students",
+    price: "$35 per class",
+    spots: "15 spots per class",
     hook: "Roll, stamp, and pull your own prints",
-    description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. You'll make colorful, layered work, mixing colour right on the plate and building rich textures with bubble wrap, yarn and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. All materials provided. One booking covers the whole semester.",
-    buttonLabel: "Book the Semester",
+    description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. You'll make colorful, layered work, mixing color right on the plate and building rich textures with bubble wrap, yarn and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. All materials provided. Come for one class or every week &mdash; pick your date when you book.",
+    buttonLabel: "Book a Spot",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-squish-roll-print_orig.jpg",
-    dateLabel: "16 Tuesdays, Sept 8 – Dec 22 · 1:00–2:30 PM",
+    dateLabel: "Tuesdays, Sept 8 – Dec 22 · 1:00–2:30 PM",
     schedule: { type:"weekly", weekday:2, anchor:"2026-09-08", until:"2026-12-22", startTime:"13:00", endTime:"14:30", skip:[] }
   },
 
   /* ============ Finding Calm Through Color  -  14 Thursdays (Jeana Esser-Lang) ============
-     $490 covers the whole semester (14 classes). 15 seats.
+     $40 per class — the only 2-hour class of the four. 15 seats.
      NOTE: the doc listed Sept 9/16/23/30 + Oct 7/14/21/28 under "Thursday" — those are Wednesdays.
-     Corrected to real Thursdays. Skips Thanksgiving Day, Thu Nov 26. 15 Thursdays minus 1 = 14,
-     which matches the doc's "semester (14 classes)" exactly. */
+     Corrected to real Thursdays. Skips Thanksgiving Day, Thu Nov 26, so 15 Thursdays minus 1 = 14.
+     The doc's class tab still shows an older $45 drop-in rate — confirm with Jeana if it matters. */
   {
     id: "finding_calm_through_color",
     pages: ["GAK","GAC"],
@@ -461,20 +461,20 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$490 for the semester (14 classes)",
-    spots: "15 students",
+    price: "$40 per class",
+    spots: "15 spots per class",
     hook: "Take a break from the world and make magic with color",
-    description: "A meditative watercolor painting class for relaxation. Take a break from the world and make magic with colour and flow. Beginners and all levels welcome &mdash; this is about the calm as much as the painting. <strong>Thursdays, 10:00 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. All materials provided, including watercolour palettes, colored pencils, oil pastels, gel pens and watercolour paper. One booking covers the whole semester.",
-    buttonLabel: "Book the Semester",
+    description: "A meditative watercolor painting class for relaxation. Take a break from the world and make magic with color and flow. Beginners and all levels welcome &mdash; this is about the calm as much as the painting. <strong>Thursdays, 10:00 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. Two unhurried hours, all materials provided, including watercolor palettes, colored pencils, oil pastels, gel pens and watercolor paper. Come for one class or every week &mdash; pick your date when you book.",
+    buttonLabel: "Book a Spot",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-finding-calm-through-color_orig.jpg",
-    dateLabel: "14 Thursdays, Sept 10 – Dec 17 · 10:00 AM–12:00 PM",
+    dateLabel: "Thursdays, Sept 10 – Dec 17 · 10:00 AM–12:00 PM",
     schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-12-17", startTime:"10:00", endTime:"12:00", skip:["2026-11-26"] }
   },
 
   /* ============ Beginner Watercolor and Mixed Media  -  14 Thursdays (Jeana Esser-Lang) ============
-     $390 covers the whole semester (14 classes). 15 seats. Same Thursday date fix and
-     Thanksgiving skip as Finding Calm. */
+     $35 per class, 1.5 hours. 15 seats. Same Thursday date fix and Thanksgiving skip
+     as Finding Calm. */
   {
     id: "beginner_watercolor_mixed_media",
     pages: ["GAK","GAC"],
@@ -484,14 +484,14 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$390 for the semester (14 classes)",
-    spots: "15 students",
+    price: "$35 per class",
+    spots: "15 spots per class",
     hook: "Washes, crayon resist, and a little magic",
-    description: "Kids learn basic watercolour techniques to create simple but amazing artwork &mdash; vibrant washes pulled over white crayon or oil pastel, plus ink and other media, to make magical mixed-media creations. <strong>Thursdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12, homeschool friendly. All materials provided, including watercolours, brushes, oil pastels and watercolour paper. One booking covers the whole semester.",
-    buttonLabel: "Book the Semester",
+    description: "Kids learn basic watercolor techniques to create simple but amazing artwork &mdash; vibrant washes pulled over white crayon or oil pastel, plus ink and other media, to make magical mixed-media creations. <strong>Thursdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12, homeschool friendly. All materials provided, including watercolors, brushes, oil pastels and watercolor paper. Come for one class or every week &mdash; pick your date when you book.",
+    buttonLabel: "Book a Spot",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-beginner-watercolor-mixed-media_orig.jpg",
-    dateLabel: "14 Thursdays, Sept 10 – Dec 17 · 1:00–2:30 PM",
+    dateLabel: "Thursdays, Sept 10 – Dec 17 · 1:00–2:30 PM",
     schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-12-17", startTime:"13:00", endTime:"14:30", skip:["2026-11-26"] }
   },
 
