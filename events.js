@@ -537,6 +537,37 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-12-17", startTime:"13:00", endTime:"14:30", skip:["2026-11-26"] }
   },
 
+
+/* ============ Beginner Watercolor and Mixed Media — 3:00 PM  -  14 Thursdays (Jeana Esser-Lang) ============
+     Second section of the 1:00 PM class, added Aug 2026. Same class, same ages, same price,
+     same 14 Thursdays and the same Thanksgiving skip — only the time is different.
+     TITLE: age first, matching Art of Me / Wonderfully Weird / Squish. Both sections are ages 6–12,
+     so the time is appended purely to tell the two apart — without it the titles are identical.
+     $35 per class, 1.5 hours. 15 seats.
+     NOTE: this puts three classes in the building at 3:30–4:30 on Thursdays (Middle School
+     Ceramics runs to 5:30, Photography starts at 3:30). Check the room before announcing. */
+  {
+    id: "beginner_watercolor_mixed_media_3pm",
+    pages: ["GAK","GAC"],
+    title: "Beginner Watercolor and Mixed Media (Ages 6–12, 3:00 PM)",
+    category: "specialty",
+    tags: ["Younger Students","Watercolor","Mixed Media","Homeschool"],
+    teacher: "jeana",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$35 per class",
+    spots: "15 spots per class",
+    hook: "Washes, crayon resist, and a little magic",
+    description: "Kids learn basic watercolor techniques to create simple but amazing artwork &mdash; vibrant washes pulled over white crayon or oil pastel, plus ink and other media, to make magical mixed-media creations. <strong>Thursdays, 3:00&ndash;4:30 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12, homeschool friendly. Same class as the 1:00 PM section, just later in the day. All materials provided, including watercolors, brushes, oil pastels and watercolor paper. Come for one class or every week &mdash; pick your date when you book.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-beginner-watercolor-mixed-media_orig.jpg",
+    dateLabel: "Thursdays, Sept 10 – Dec 17 · 3:00–4:30 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-12-17", startTime:"15:00", endTime:"16:30", skip:["2026-11-26"] }
+  },
+
+   
+
     /* ============ 14) Toddler Music & Art Trial Class  -  dates ============ */
   {
     id: "toddler_music_trial_aug2026",
