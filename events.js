@@ -153,14 +153,36 @@ var CAT_COLORS = {
 };
 
 /* teacher bios (link an event with  teacher:"haley" ) */
+/* ═══════════════════════════════════════════════════════════════════════════
+   👩‍🏫  TEACHERS
+   The bios that show under the class list. Add a teacher here FIRST, then
+   point a class at the key with  teacher: "haley"  and the bio attaches.
+
+   ⚠  REAL CHARACTERS ONLY in this block — a real em dash and a real
+      ampersand, never &mdash; or &amp;. Unlike class descriptions, these are
+      printed raw, so an HTML code shows on the page as literal text. That is
+      what once put "PHOTOGRAPHY &AMP; FILM" on the live site.
+
+   img  can be left as ""  — the page falls back to a circle with the initial.
+   ═══════════════════════════════════════════════════════════════════════════ */
 var TEACHERS = {
- haley: {
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🏺  HALEY HOLMGREN  —  Ceramics
+     Wheel throwing, handbuilding, youth and adult clay
+     ────────────────────────────────────────────────────────────────────── */
+  haley: {
     name: "Haley Holmgren",
     role: "Ceramics",
     color: "#FF5733",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-haley-holmgren-headshot_orig.jpg",
     bio: "Haley Holmgren is a Bellingham-grown ceramic artist whose passion for playing in the mud has led to a life of wheel throwing and pottery. She is delighted to share the clay, and the laughter it brings, with all."
   },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🩰  BRITTANY PARKER  —  Dance
+     Contemporary, pom, restorative movement, ballet
+     ────────────────────────────────────────────────────────────────────── */
   brittany: {
     name: "Brittany Parker",
     role: "Dance",
@@ -168,6 +190,11 @@ var TEACHERS = {
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-brittany-headshot_orig.jpg",
     bio: "Brittany Parker is a Bellingham and Seattle-based choreographer, performer and movement instructor whose work lives at the intersection of accessibility, community and sustainable creative practice. She has worked across Seattle's drag and contemporary dance scenes, including with RuPaul's Drag Race alum BOSCO and 3rd Shift Dance Company, and in 2019 founded Coalescence Dance Company — now in its seventh season and touring the West Coast. She has taught weekly at Westlake Dance Center since 2018."
   },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🎨  ZANNIE DeMARCO  —  Specialty Art
+     Drawing, self portraits, artist-led themed classes
+     ────────────────────────────────────────────────────────────────────── */
   zannie: {
     name: "Zannie DeMarco",
     role: "Specialty Art",
@@ -175,6 +202,11 @@ var TEACHERS = {
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-zannie-demarco-headshot_orig.jpg",
     bio: "Zannie is a visual art educator with 27 years in the classroom — teaching K–5 art in Malibu, running programs in schools and orphanages in Haiti, and spending a decade integrating studio art and art history across New York City. She moved to Birch Bay in 2024 and now builds curriculum for Gabriel's Art Kids, teaching students of every age."
   },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🖌️  JEANA ESSER-LANG  —  Mixed Media & Printmaking
+     Gelli printing, watercolour, mixed media
+     ────────────────────────────────────────────────────────────────────── */
   jeana: {
     name: "Jeana Esser-Lang",
     role: "Mixed Media & Printmaking",
@@ -182,12 +214,49 @@ var TEACHERS = {
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-jeana-esser-lang-headshot_orig.jpg",
     bio: "Born in Louisiana amid crawfish boils and swirling hurricanes, Jeana brings a splash of Southern soul to Bellingham. She has taught art for over two decades and shown her own work for twice that long — a vibrant mix of whimsical wonder and sharp, edgy creativity. Loves Halloween and sharks. When she isn't covered in paint, she's a wife, mother, grandma and dedicated dog mom."
   },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     📷  RADU SAVA  —  Photography & Film
+     Photography, filmmaking, stop motion animation
+     ────────────────────────────────────────────────────────────────────── */
   radu: {
     name: "Radu Sava",
     role: "Photography & Film",
     color: "#57A86A",
     img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-headshot_orig.jpg",
     bio: "Radu Sava has spent 25 years turning photography into storytelling — editorial and print campaigns, portraits on location and in the studio, product, events and nature work for clients across Europe and the US. He is also an award-winning filmmaker; his documentary “Not If, But When: Wildfire Solutions” streams on Amazon. Now in his 13th year teaching photography and video, he mentors students of all ages."
+  },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🎵  MARK NICHOLS  —  Music & Community
+     Creative Connections morning gatherings
+
+     Added Aug 2026. No class in ALL_EVENTS yet, so he does not appear on the
+     site — the teacher strip only lists teachers who have an event on that page.
+     ────────────────────────────────────────────────────────────────────── */
+  mark: {
+    name: "Mark Nichols",
+    role: "Music & Community",
+    color: "#C2456B",
+    img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-mark-nichols-headshot-1_orig.jpg",
+    bio: "Mark Nichols is a composer, author, videographer, editor and teacher with forty years behind him. He has written and produced a dozen folk operas and contributed to the films of Children of the Setting Sun. His recent work includes Big Jam Stories, Beautiful Bones and Frankenstein's Children."
+  },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🧵  CLEO  —  Fiber Arts
+     Wool appliqué quilting and simple embroidery
+
+     PLACEHOLDER — Manon is replacing this. Surname unknown and no photo yet, so
+     the card falls back to a circle with her initial. The bio is her own intake
+     wording tidied to third person; she has not approved it. No class in
+     ALL_EVENTS yet, so nothing shows on the site.
+     ────────────────────────────────────────────────────────────────────── */
+  cleo: {
+    name: "Cleo",
+    role: "Fiber Arts",
+    color: "#B0763A",
+    img: "",
+    bio: "Cleo has been making wool quilts for thirteen years. Her work has been featured in magazines and her quilts are in homes across the region."
   }
 };
 
