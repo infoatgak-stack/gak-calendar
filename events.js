@@ -227,22 +227,37 @@ var ALL_EVENTS = [
     schedule: { type:"once", date:"2026-07-09", startTime:"18:00", endTime:"20:00" }
   },
 
-  /* ============ 3) Paint a Tote at Hela  -  once ============ */
+
+
+ /* ============ Stop Motion Animation — Thursdays  -  8-week course (Radu Sava) ============
+     Evening course, third Radu class. Runs the same eight Thursdays as the Thursday photography one.
+     $295 is the price for the WHOLE 8-week course, not per class. One booking, 11 seats.
+     NOTE: the planning doc says 12 students, and both photography cards say 12. Set to 11 to match
+     what the Jotform product actually sells. Confirm with Radu, then make all three agree. */
   {
-    id: "hela_tote",
+    id: "stop_motion_animation_thu",
     pages: ["GAK","GAC"],
-    title: "Paint a Tote at Hela Provisions",
+    title: "Stop Motion Animation",
     category: "specialty",
-    tags: ["Adult Events","Paint & Sip"],
-    location: "Hela Provisions, Bellingham, WA",
-    spots: "15 spots",
-    description: "Unwind with an evening of art and creativity! Design and paint your own reusable tote bag, all supplies, wine, and snacks included. <strong>July 16 &middot; 5&ndash;7 PM &middot; Limited to 15 spots!</strong>",
-    buttonLabel: "Register Now",
-    link: "https://www.gabrielsartkids.com/paint-a-tote-hela-provisions.html",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/paint-and-sip-hella-psd-3_orig.jpeg",
-    schedule: { type:"once", date:"2026-07-16", startTime:"17:00", endTime:"19:00" }
+    tags: ["Teens","Adults","Photography","STEAM"],
+    teacher: "radu",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$295 for the 8-week course",
+    spots: "11 students",
+    hook: "Bring it to life, one frame at a time",
+    description: "Students build their own characters, sets and stories, then make them move one frame at a time. Along the way they pick up storytelling, photography, animation, lighting and editing &mdash; and a good deal of patience, because stop motion rewards it. <strong>8 Thursdays, 6:30&ndash;8:00 PM</strong> with Radu Sava. Ages 14 and up. One booking covers the whole course.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-stop-motion-animation-1_orig.jpg",
+    dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 6:30–8:00 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"18:30", endTime:"20:00", skip:[] }
   },
 
+
+   
+   
+   
    /* ============ Visual Storytelling: Photography — Tuesdays  -  8-week course (Radu Sava) ============
      NOTE: $225 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats. */
   {
