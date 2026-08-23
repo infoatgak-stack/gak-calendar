@@ -359,7 +359,7 @@ var ALL_EVENTS = [
     teacher: "haley",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$290 + $25 clay fee",
+    price: "$315 for the 8-week course",
     spots: "11 students",
     hook: "Wheel, handbuilding, and a van ride from school",
     description: "Give your middle schooler the chance to explore ceramics in a fun, creative studio. Students learn both wheel throwing and handbuilding while making functional pottery and clay sculptures, building confidence and new skills as they work with clay from start to finish. Every project is glazed, kiln-fired and ready to take home. Whether your child is brand new to ceramics or has done it before, this is a welcoming space to learn, create and grow as an artist. <strong>8 Thursdays, 2:15&ndash;5:30 PM</strong> with Haley Holmgren. Grades 6th&ndash;8th. <strong>Van pickup from school included.</strong> All materials and tools included apart from the $25 clay fee.",
@@ -585,7 +585,7 @@ var ALL_EVENTS = [
     teacher: "zannie",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$35 per class",
+    price: "$30 per class",
     spots: "15 spots per class",
     hook: "Where art gets delightfully dark",
     description: "Spirals, stripes, and gorgeously gloomy imagination &mdash; this weekly class dives into the strange and stunning world of Tim Burton's art. Each week brings a new technique and medium (think vellum ghosts, sharpie shadows, and paper-cut silhouettes) inspired by Burton's signature style. Perfect for kids who love a little spooky in their sketchbook. <strong>Wednesdays, 10:00&ndash;11:30 AM</strong> with Zannie DeMarco. Kindergarten&ndash;4th grade, homeschool friendly. All materials provided.",
@@ -660,7 +660,7 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$35 per class",
+    price: "$40 per class",
     spots: "15 spots per class",
     hook: "Roll, stamp, and pull your own prints",
     description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. Students make colorful, layered masterpieces, mixing color right on the plate and building crazy textures with bubble wrap, yarn, legos and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 10:30 AM&ndash;12:00 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12. All materials provided. Come for one class or every week &mdash; pick your date when you book.",
@@ -689,7 +689,7 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$35 per class",
+    price: "$40 per class",
     spots: "15 spots per class",
     hook: "Roll, stamp, and pull your own prints",
     description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. Students mix colour right on the plate and build wild textures with bubble wrap, yarn, Lego and handmade stencils, then peel the paper back to see what appeared. <strong>Tuesdays, 3:00&ndash;4:30 PM</strong> with Jeana Esser-Lang. Ages 6&ndash;12. Same class as the 10:30 AM section, just later in the day. All materials provided. Come for one class or every week &mdash; pick your date when you book.",
@@ -712,7 +712,7 @@ var ALL_EVENTS = [
     teacher: "jeana",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$35 per class",
+    price: "$45 per class",
     spots: "15 spots per class",
     hook: "Roll, stamp, and pull your own prints",
     description: "Gelli plate printmaking uses a squishy, reusable gelatin-like plate to make monoprints &mdash; no printing press needed. You'll make colorful, layered work, mixing color right on the plate and building rich textures with bubble wrap, yarn and handmade stencils. It feels like magic every time you peel the paper back to reveal your design. <strong>Tuesdays, 1:00&ndash;2:30 PM</strong> with Jeana Esser-Lang. Adults and seniors, 18 and up. All materials provided. Come for one class or every week &mdash; pick your date when you book.",
@@ -910,7 +910,223 @@ var ALL_EVENTS = [
      🎃  EVENTS & FUNDRAISERS
      ────────────────────────────────────────────────────────────────────────── */
 
-   /* ============ Spooktacular 2026  -  dates, 3 nights (FEATURED) ============
+   /* ═══════════ ScribbleScape Series (GAK Instructors) ═══════════
+     Four classes under one series name, added Aug 2026. All $32.50 drop-in.
+     The $110 monthly pass and the punch cards are NOT built - both need a way to
+     track attendance that does not exist yet. Drop-in only for now.            */
+
+  /* ---- ScribbleScape: Little Hands Studio : 28 sessions ---- */
+  {
+    id: "scribblescape_little_hands",
+    pages: ["GAK","GAC"],
+    title: "ScribbleScape: Little Hands Studio",
+    category: "littles",
+    tags: ["Toddlers","Whole Family","Drop-In"],
+    teacher: "gakteam",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$32.50 per class",
+    spots: "10 spots per class",
+    hook: "Where the mess is the masterpiece",
+    description: "A joyful weekly class for the littlest artists and their grown-up, built around open-ended, sensory-rich materials &mdash; paint, texture, colour, touch. There is no right way to make something here; it is slow, connected time to explore together, with early art skills woven in through play rather than instruction. <strong>Mondays and Wednesdays, 10:00&ndash;11:30 AM</strong>. Ages 1&ndash;5 with an accompanying grown-up. We handle the cleanup so you do not have to. Infant siblings welcome.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-scribblescape-little-hands_orig.jpg",
+    dateLabel: "Mondays & Wednesdays, Sept 14 – Dec 21 · 10:00–11:30 AM",
+    schedule: {
+      type: "dates", startTime: "10:00", endTime: "11:30",
+      dates: [
+        "2026-09-14", "2026-09-16", "2026-09-21", "2026-09-23", "2026-09-28", "2026-09-30", "2026-10-05",
+        "2026-10-07", "2026-10-12", "2026-10-14", "2026-10-19", "2026-10-21", "2026-10-26", "2026-10-28",
+        "2026-11-02", "2026-11-04", "2026-11-09", "2026-11-11", "2026-11-16", "2026-11-18", "2026-11-23",
+        "2026-11-30", "2026-12-02", "2026-12-07", "2026-12-09", "2026-12-14", "2026-12-16", "2026-12-21"
+      ]
+    }
+  },
+
+  /* ---- ScribbleScape: Family Studio : 14 sessions ---- */
+  {
+    id: "scribblescape_family_studio",
+    pages: ["GAK","GAC"],
+    title: "ScribbleScape: Family Studio",
+    category: "family",
+    tags: ["Whole Family","Younger Students","Drop-In"],
+    teacher: "gakteam",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$32.50 per class",
+    spots: "10 spots per class",
+    hook: "Where the mess is the masterpiece",
+    description: "A weekly creative gathering for the whole family &mdash; siblings of all ages welcome. Kids and grown-ups explore new materials and techniques side by side, with a focus on process and personal discovery over finished products. <strong>Wednesdays, 3:00&ndash;4:30 PM</strong>. Ages 5&ndash;12 with family. A good fit for families with a wide age range, homeschoolers, or a playdate that wants a built-in art activity.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-scribblescape-family-studio_orig.jpg",
+    dateLabel: "Wednesdays, Sept 9 – Dec 16 · 3:00–4:30 PM",
+    schedule: {
+      type: "dates", startTime: "15:00", endTime: "16:30",
+      dates: [
+        "2026-09-09", "2026-09-16", "2026-09-23", "2026-09-30", "2026-10-07", "2026-10-14", "2026-10-21",
+        "2026-10-28", "2026-11-04", "2026-11-11", "2026-11-18", "2026-12-02", "2026-12-09", "2026-12-16"
+      ]
+    }
+  },
+
+  /* ---- ScribbleScape: After School Creators (Tuesdays) : 13 sessions ---- */
+  {
+    id: "scribblescape_after_school_tue",
+    pages: ["GAK","GAC"],
+    title: "ScribbleScape: After School Creators (Tuesdays)",
+    category: "classes",
+    tags: ["Younger Students","After School","Drop-In"],
+    teacher: "gakteam",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$32.50 per class",
+    spots: "10 spots per class",
+    hook: "Where the mess is the masterpiece",
+    description: "A screen-free hour and a half of hands-on art for elementary-age kids &mdash; sculpture, collage, painting, printmaking and more. It is a drop-off class designed to build independence and confidence, with no pressure to make anything perfect. <strong>Tuesdays, 3:00&ndash;4:30 PM</strong>. Ages 5&ndash;12. Just real materials, real mess, and space to take creative risks. There is also a Thursday section.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-scribblescape-after-school_orig.jpg",
+    dateLabel: "Tuesdays, Sept 15 – Dec 15 · 3:00–4:30 PM",
+    schedule: {
+      type: "dates", startTime: "15:00", endTime: "16:30",
+      dates: [
+        "2026-09-15", "2026-09-22", "2026-09-29", "2026-10-06", "2026-10-13", "2026-10-20", "2026-10-27",
+        "2026-11-03", "2026-11-10", "2026-11-17", "2026-12-01", "2026-12-08", "2026-12-15"
+      ]
+    }
+  },
+
+  /* ---- ScribbleScape: After School Creators (Thursdays) : 13 sessions ---- */
+  {
+    id: "scribblescape_after_school_thu",
+    pages: ["GAK","GAC"],
+    title: "ScribbleScape: After School Creators (Thursdays)",
+    category: "classes",
+    tags: ["Younger Students","After School","Drop-In"],
+    teacher: "gakteam",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$32.50 per class",
+    spots: "10 spots per class",
+    hook: "Where the mess is the masterpiece",
+    description: "A screen-free hour and a half of hands-on art for elementary-age kids &mdash; sculpture, collage, painting, printmaking and more. It is a drop-off class designed to build independence and confidence, with no pressure to make anything perfect. <strong>Thursdays, 1:00&ndash;2:30 PM</strong>. Ages 5&ndash;12. Just real materials, real mess, and space to take creative risks. There is also a Tuesday section.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-scribblescape-after-school_orig.jpg",
+    dateLabel: "Thursdays, Sept 17 – Dec 17 · 1:00–2:30 PM",
+    schedule: {
+      type: "dates", startTime: "13:00", endTime: "14:30",
+      dates: [
+        "2026-09-17", "2026-09-24", "2026-10-01", "2026-10-08", "2026-10-15", "2026-10-22", "2026-10-29",
+        "2026-11-05", "2026-11-12", "2026-11-19", "2026-12-03", "2026-12-10", "2026-12-17"
+      ]
+    }
+  },
+
+  /* ---- ScribbleScape: Preschool Studio : 13 sessions ---- */
+  {
+    id: "scribblescape_preschool",
+    pages: ["GAK","GAC"],
+    title: "ScribbleScape: Preschool Studio",
+    category: "littles",
+    tags: ["Preschool","Whole Family","Drop-In"],
+    teacher: "gakteam",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$32.50 per class",
+    spots: "10 spots per class",
+    hook: "Where the mess is the masterpiece",
+    description: "A supportive weekly class for preschoolers building independence through open-ended art making. Kids try new materials and playful processes at their own pace, in a structured-but-gentle environment designed to build confidence. <strong>Tuesdays, 1:00&ndash;2:30 PM</strong>. Ages 3&ndash;5. Grown-ups are welcome to stay and join in, or drop off and take some free time &mdash; totally flexible. Infant siblings welcome.",
+    buttonLabel: "Book a Spot",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-scribblescape-preschool_orig.jpg",
+    dateLabel: "Tuesdays, Sept 15 – Dec 15 · 1:00–2:30 PM",
+    schedule: {
+      type: "dates", startTime: "13:00", endTime: "14:30",
+      dates: [
+        "2026-09-15", "2026-09-22", "2026-09-29", "2026-10-06", "2026-10-13", "2026-10-20", "2026-10-27",
+        "2026-11-03", "2026-11-10", "2026-11-17", "2026-12-01", "2026-12-08", "2026-12-15"
+      ]
+    }
+  },
+
+  /* ============ Beginning Wool Quilting & Simple Embroidery  -  one Saturday (Cleo Pirtle) ============
+     Sat 3 Oct, 10 AM - 1 PM. Ages 12+. 15 spots.
+     $70 for the workshop. The $60 supply kit is an OPTIONAL CHECKBOX at checkout,
+     not bundled into the price - people who already have wool and needles should not pay it.
+     Cleo travels from Bainbridge Island for this, so the date needs to be firm before it is advertised.
+     ⚠ Liquid Glass may also land on Sat 3 Oct (11-1 and 2-4). If it does, the mornings collide.  */
+  {
+    id: "wool_quilting_oct3",
+    pages: ["GAC"],
+    title: "Beginning Wool Quilting & Simple Embroidery",
+    category: "specialty",
+    tags: ["Teens","Adults","All Levels"],
+    teacher: "cleo",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$70 · optional $60 supply kit",
+    spots: "15 spots",
+    hook: "Wool, thread, and a little bit of magic",
+    description: "Hand appliqué for beginners, taught by someone who has been quilting her whole life. You will learn to cut out and sew down appliqué pieces of wool entirely by hand &mdash; no sewing machine &mdash; along with colour combinations, figure outlines, basic sewing and simple embroidery. <strong>Saturday, October 3, 10:00 AM&ndash;1:00 PM</strong> with Cleo Pirtle. Ages 12 and up, no experience needed. Bring your own wool, scissors, needles and thread, or add the supply kit when you book and everything is ready for you.",
+    buttonLabel: "Book the Workshop",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-cleo-pirtle-wool-quilting_orig.jpg",
+    dateLabel: "Saturday, Oct 3 · 10:00 AM–1:00 PM",
+    schedule: { type:"once", date:"2026-10-03", startTime:"10:00", endTime:"13:00" }
+  },
+
+  /* ============ Arts in Common Café: Creative Connections  -  71 weekday mornings (Mark Nichols) ============
+     Free, by donation, walk-in friendly. Registration is only so we know roughly who is coming.
+     Tue 8 Sept - Fri 18 Dec, every weekday 8-9 AM. Holidays removed: Veterans Day (Nov 11),
+     Thanksgiving (Nov 26) and the Friday after (Nov 27).
+     Ends Fri 18 Dec - the doc says "Dec 19" but that is a Saturday, so the last weekday is the 18th.
+     A different session each weekday under one name, which is why it is a dates list rather
+     than a weekly rule - "weekly" only handles one weekday.                                          */
+  {
+    id: "creative_connections_coffee_hour",
+    pages: ["GAC"],
+    title: "Arts in Common Café: Creative Connections",
+    category: "adult",
+    tags: ["Adults","Free","Drop-In","All Levels"],
+    teacher: "mark",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "Free — by donation",
+    spots: "6–30 people",
+    hook: "A hub for artsy people who feel a bit alone",
+    description: "Walk in, pay what you can, and be part of Bellingham's creative morning gathering. Every weekday is different, though the shape repeats: Monday is a morning sing, Tuesday is adult show and tell, Wednesday is a rotating theme, Thursday is a guest spotlight interviewed actor&rsquo;s-studio style, and Friday is anything from an art walk day to improv to musicians talking music. <strong>Weekday mornings, 8:00&ndash;9:00 AM</strong> with Mark Nichols. Ages 18+. The idea is consistency &mdash; a constant place for people who want to exercise their creativity but feel a little disconnected. Low stress, lots of guests, and no need to book.",
+    buttonLabel: "Let Us Know You're Coming",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-mark-nichols-headshot-1_orig.jpg",
+    dateLabel: "Weekday mornings, Sept 8 – Dec 18 · 8:00–9:00 AM",
+    schedule: {
+      type: "dates",
+      startTime: "08:00",
+      endTime: "09:00",
+      dates: [
+      "2026-09-08", "2026-09-09", "2026-09-10", "2026-09-11", "2026-09-14",
+      "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-21",
+      "2026-09-22", "2026-09-23", "2026-09-24", "2026-09-25", "2026-09-28",
+      "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-05",
+      "2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09", "2026-10-12",
+      "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16", "2026-10-19",
+      "2026-10-20", "2026-10-21", "2026-10-22", "2026-10-23", "2026-10-26",
+      "2026-10-27", "2026-10-28", "2026-10-29", "2026-10-30", "2026-11-02",
+      "2026-11-03", "2026-11-04", "2026-11-05", "2026-11-06", "2026-11-09",
+      "2026-11-10", "2026-11-12", "2026-11-13", "2026-11-16", "2026-11-17",
+      "2026-11-18", "2026-11-19", "2026-11-20", "2026-11-23", "2026-11-24",
+      "2026-11-25", "2026-11-30", "2026-12-01", "2026-12-02", "2026-12-03",
+      "2026-12-04", "2026-12-07", "2026-12-08", "2026-12-09", "2026-12-10",
+      "2026-12-11", "2026-12-14", "2026-12-15", "2026-12-16", "2026-12-17",
+      "2026-12-18"
+      ]
+    }
+  },
+
+  /* ============ Spooktacular 2026  -  dates, 3 nights (FEATURED) ============
    GAK's big fall fundraiser at Woodstock Farm. Shuttle-only from Fairhaven Park.
    Thursday is the shorter, gentler night (ends 8:00 PM); Friday and Saturday
    run to 9:00 PM. The "dates" schedule uses one time pair for all three, so the
