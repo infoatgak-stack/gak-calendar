@@ -243,20 +243,37 @@ var TEACHERS = {
   },
 
   /* ──────────────────────────────────────────────────────────────────────
-     🧵  CLEO  —  Fiber Arts
+     🧵  CLEO PIRTLE  —  Fiber Arts
      Wool appliqué quilting and simple embroidery
 
-     PLACEHOLDER — Manon is replacing this. Surname unknown and no photo yet, so
-     the card falls back to a circle with her initial. The bio is her own intake
-     wording tidied to third person; she has not approved it. No class in
-     ALL_EVENTS yet, so nothing shows on the site.
+     Her own words, from the teacher form on 22 Aug 2026, permission given.
+     No headshot — she did not send one, so the card shows a circle with "C".
+     The image she sent is her own appliqué work and belongs on the CLASS card,
+     not here. No class in ALL_EVENTS yet.
      ────────────────────────────────────────────────────────────────────── */
   cleo: {
-    name: "Cleo",
+    name: "Cleo Pirtle",
     role: "Fiber Arts",
     color: "#B0763A",
     img: "",
-    bio: "Cleo has been making wool quilts for thirteen years. Her work has been featured in magazines and her quilts are in homes across the region."
+    bio: "Cleo Pirtle has been a quilter all her life, starting with cotton and moving to wool. She was a landscape designer for over forty years but would rather design wool quilts than pull weeds. She taught horticulture classes for years and now teaches wool quilting on Bainbridge Island, where she lives."
+  },
+
+  /* ──────────────────────────────────────────────────────────────────────
+     🖍️  GAK INSTRUCTORS  —  ScribbleScape Series
+     Little Hands, Preschool, Family Studio and After School Creators
+
+     Not one person — the ScribbleScape classes are taught by rotating GAK
+     staff, so Gabriel submitted the team as the teacher and the GAK logo as
+     the photo. All four ScribbleScape classes point at this key.
+     Added 22 Aug 2026. No classes in ALL_EVENTS yet.
+     ────────────────────────────────────────────────────────────────────── */
+  gakteam: {
+    name: "GAK Instructors",
+    role: "ScribbleScape Series",
+    color: "#E0A32E",
+    img: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-gak-instructors-headshot_orig.jpg",
+    bio: "The ScribbleScape classes are hosted by Gabriel's Art Kids' team of trained art instructors, dedicated to open-ended, process-focused creative play."
   }
 };
 
@@ -876,8 +893,8 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-stop-motion-animation-1_orig.jpg",
-    dateLabel: "8 Thursdays, Sept 10 – Oct 29 · 6:30–8:00 PM",
-    schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"18:30", endTime:"20:00", skip:[] }
+    dateLabel: "8 Thursdays, Oct 1 – Nov 19 · 6:30–8:00 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-10-01", until:"2026-11-19", startTime:"18:30", endTime:"20:00", skip:[] }
   },
 
 
