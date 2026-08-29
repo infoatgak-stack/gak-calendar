@@ -1133,8 +1133,7 @@ var ALL_EVENTS = [
    dateLabel below spells out the difference for people reading the card.
    Registration is not open yet, so the button points at the info page.
    Swap link + buttonLabel to the Jotform when tickets go live. */
-  
-{
+  {
     id: "spooktacular_2026",
     pages: ["GAK"],
     title: "Spooktacular 2026",
@@ -1142,18 +1141,17 @@ var ALL_EVENTS = [
     color: "orange",
     tags: ["Fundraiser","Halloween","Ages 6+"],
     location: "Woodstock Farm, 1200 Chuckanut Dr N, Bellingham, WA",
-    price: "$15 Thursday · $25 Friday & Saturday",
+    price: "$15 Thursday &middot; $25 Friday &amp; Saturday",
     spots: "33 per time slot",
-    hook: "Something is still moving in the old slaughterhouse",
+    hook: "Something is still moving out at the old farm",
     description: "Three nights of family-friendly frights at historic Woodstock Farm. Creep through the <strong>Haunted Fun House</strong>, brave the <strong>Witch Walk</strong>, sit down in the <strong>Seance Room</strong>, and try your nerve at ghostly games and make-and-take crafts. <strong>Thursday Oct 22, 6:30&ndash;8:00 PM</strong> is our gentler night for younger kids and sensitive souls. <strong>Friday Oct 23</strong> brings the Zombie Dancers and <strong>Saturday Oct 24</strong> ends with a Halloween party in the barn, both 6:30&ndash;9:00 PM. Ages 6 and up. Access is by Spooky Van shuttle from Fairhaven Park, included with your ticket &mdash; there is no parking at the farm. Every ticket supports year-round art education for Bellingham youth.",
     buttonLabel: "See the Details",
     link: "https://www.gabrielsartkids.com/spooktacular2026.html",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/spooktacular-2026-png_orig.png",
     featured: true,
-    dateLabel: "Oct 22, 23 & 24, 2026 · Thu 6:30–8:00 PM · Fri & Sat 6:30–9:00 PM",
+    dateLabel: "Oct 22, 23 &amp; 24, 2026 &middot; Thu 6:30&ndash;8:00 PM &middot; Fri &amp; Sat 6:30&ndash;9:00 PM",
     schedule: { type:"dates", dates:["2026-10-22","2026-10-23","2026-10-24"], startTime:"18:30", endTime:"21:00" }
   },
-
 
   /* ──────────────────────────────────────────────────────────────────────────
      👶  EARLY YEARS
