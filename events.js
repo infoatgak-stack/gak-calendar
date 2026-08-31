@@ -216,7 +216,7 @@ var TEACHERS = {
   },
 
   /* ──────────────────────────────────────────────────────────────────────
-     📷  RADU SAVA  —  Photography & Film
+     📷   SAVA  —  Photography & Film
      Photography, filmmaking, stop motion animation
      ────────────────────────────────────────────────────────────────────── */
   radu: {
@@ -898,6 +898,34 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-stop-motion-animation-1_orig.jpg",
     dateLabel: "8 Wednesdays, Sept 9 – Oct 28 · 4:00–6:00 PM",
     schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-10-28", startTime:"16:00", endTime:"18:00", skip:[] }
+  },
+
+
+   /* ============ Film & Video — Thursdays  -  8-week course (Radu Sava) ============
+     NEW Aug 2026. Takes the Thursday 6:30–8:00 PM slot Stop Motion vacated.
+     $295 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats.
+     IMAGE: currently borrowing the photography photo. Upload a real film still to Weebly,
+     copy the URL Weebly hands back, and replace the line below.
+     No Thanksgiving skip needed — the course ends Nov 19, a week before.                    */
+
+{
+    id: "film_video_thu",
+    pages: ["GAK","GAC"],
+    title: "Film & Video (Ages 14+)",
+    category: "specialty",
+    tags: ["Teens","Adults","Photography","STEAM"],
+    teacher: "radu",
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$295 for the 8-week course",
+    spots: "12 students",
+    hook: "Eight weeks, one finished short film",
+    description: "Students learn visual storytelling by making a collaborative short film from end to end &mdash; developing the idea, writing it, shooting it, editing it, then screening the finished piece. Along the way: story structure, storyboarding, shot composition, camera operation and movement, audio, lighting and effects. Everyone takes on real crew roles, the way a production actually works. <strong>8 Thursdays, 6:30&ndash;8:00 PM</strong> with Radu Sava. Ages 14 and up. One booking covers the whole course.",
+    buttonLabel: "Book the Course",
+    link: "https://pci.jotform.com/form/261687139050055",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-photography-visual-storytelling_orig.jpg",
+    dateLabel: "8 Thursdays, Oct 1 – Nov 19 · 6:30–8:00 PM",
+    schedule: { type:"weekly", weekday:4, anchor:"2026-10-01", until:"2026-11-19", startTime:"18:30", endTime:"20:00", skip:[] }
   },
 
 
