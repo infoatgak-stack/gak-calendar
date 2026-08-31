@@ -871,30 +871,33 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:4, anchor:"2026-09-10", until:"2026-10-29", startTime:"15:30", endTime:"17:00", skip:[] }
   },
 
- /* ============ Stop Motion Animation — Thursdays  -  8-week course (Radu Sava) ============
-     Evening course, third Radu class. Runs the same eight Thursdays as the Thursday photography one.
+ /* ============ Stop Motion Animation — Wednesdays  -  8-week course (Radu Sava) ============
+     MOVED Aug 2026: was Thursdays 6:30–8:00 PM for ages 14+. Now Wednesdays 4:00–6:00 PM
+     for ages 7–10. Film & Video took over the Thursday evening slot.
+     The id still ends "_thu" on purpose — the Ops Board and Media Maker remember ids, so
+     renaming it would orphan them. Read it as historical, not as the day.
      $295 is the price for the WHOLE 8-week course, not per class. One booking, 11 seats.
-     NOTE: the planning doc says 12 students, and both photography cards say 12. Set to 11 to match
-     what the Jotform product actually sells. Confirm with Radu, then make all three agree. */
-  
+     NOTE: the doc tab says 12 students. 11 matches what Jotform sells. Confirm with Radu,
+     then make all three agree.                                                              */
+
 {
     id: "stop_motion_animation_thu",
     pages: ["GAK","GAC"],
-    title: "Stop Motion Animation",
+    title: "Stop Motion Animation (Ages 7–10)",
     category: "specialty",
-    tags: ["Teens","Adults","Photography","STEAM"],
+    tags: ["Younger Students","Photography","STEAM","After School"],
     teacher: "radu",
     venueLabel: "Gabriel's Art Center",
     location: "322 E. Holly St., Downtown Bellingham, WA",
     price: "$295 for the 8-week course",
     spots: "11 students",
     hook: "Bring it to life, one frame at a time",
-    description: "Students build their own characters, sets and stories, then make them move one frame at a time. Along the way they pick up storytelling, photography, animation, lighting and editing &mdash; and a good deal of patience, because stop motion rewards it. <strong>8 Thursdays, 6:30&ndash;8:00 PM</strong> with Radu Sava. Ages 14 and up. One booking covers the whole course.",
+    description: "Young animators build their own characters, sets and stories, then make them move one frame at a time. Along the way they pick up storytelling, photography, animation, lighting and editing &mdash; and a good deal of patience, because stop motion rewards it. <strong>8 Wednesdays, 4:00&ndash;6:00 PM</strong> with Radu Sava. Ages 7&ndash;10. One booking covers the whole course.",
     buttonLabel: "Book the Course",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-radu-sava-stop-motion-animation-1_orig.jpg",
-    dateLabel: "8 Thursdays, Oct 1 – Nov 19 · 6:30–8:00 PM",
-    schedule: { type:"weekly", weekday:4, anchor:"2026-10-01", until:"2026-11-19", startTime:"18:30", endTime:"20:00", skip:[] }
+    dateLabel: "8 Wednesdays, Sept 9 – Oct 28 · 4:00–6:00 PM",
+    schedule: { type:"weekly", weekday:3, anchor:"2026-09-09", until:"2026-10-28", startTime:"16:00", endTime:"18:00", skip:[] }
   },
 
 
