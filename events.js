@@ -901,7 +901,7 @@ var ALL_EVENTS = [
   },
 
 
-   /* ============ Film & Video — Thursdays  -  8-week course (Radu Sava) ============
+   /* ============ Young Filmmakers — Thursdays  -  8-week course (Radu Sava) ============
      NEW Aug 2026. Takes the Thursday 6:30–8:00 PM slot Stop Motion vacated.
      $295 is the price for the WHOLE 8-week course, not per class. One booking, 12 seats.
      IMAGE: currently borrowing the photography photo. Upload a real film still to Weebly,
@@ -909,9 +909,9 @@ var ALL_EVENTS = [
      No Thanksgiving skip needed — the course ends Nov 19, a week before.                    */
 
 {
-    id: "film_video_thu",
+    id: "young_filmmakers_thu",
     pages: ["GAK","GAC"],
-    title: "Film & Video (Ages 14+)",
+    title: "Young Filmmakers: Create Your Own Short Film",
     category: "specialty",
     tags: ["Teens","Adults","Photography","STEAM"],
     teacher: "radu",
