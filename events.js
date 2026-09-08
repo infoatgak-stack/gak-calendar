@@ -1189,11 +1189,12 @@ var ALL_EVENTS = [
      ────────────────────────────────────────────────────────────────────────── */
 
    
-  /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly ============ */
+  /* ============ 15) Toddler Music & Art  -  Fall 2026, weekly ============
+     Sept 2026: now on BOTH pages, so it shows in the Art Center list too. */
   
 {
     id: "toddler_music_fall_2026",
-    pages: ["GAK"],
+    pages: ["GAK","GAC"],
     title: "Toddler Music & Art: Fall 2026",
     category: "littles",
     tags: ["Whole Family","Toddlers"],
@@ -1206,9 +1207,9 @@ var ALL_EVENTS = [
     buttonLabel: "Register Now",
     link: "https://www.gabrielsartkids.com/toddlermusic.html",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-6692_orig.jpeg",
-    schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45" }
+    dateLabel: "6 Fridays, Sept 11 – Oct 16 · 10:00–10:45 AM",
+    schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45", skip:[] }
   },
-
 
   /* ──────────────────────────────────────────────────────────────────────────
      📝  NOW ENROLLING  ·  year-round programmes
