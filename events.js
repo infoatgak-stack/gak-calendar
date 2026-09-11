@@ -1084,13 +1084,13 @@ var ALL_EVENTS = [
   },
 
   /* ============ Beginning Wool Quilting & Simple Embroidery  -  one Saturday (Cleo Pirtle) ============
-     Sat 3 Oct, 10 AM - 1 PM. Ages 12+. 15 spots.
+     Sat 10 Oct, 10 AM - 1 PM. Ages 12+. 15 spots.
      $70 for the workshop. The $60 supply kit is an OPTIONAL CHECKBOX at checkout,
      not bundled into the price - people who already have wool and needles should not pay it.
      Cleo travels from Bainbridge Island for this, so the date needs to be firm before it is advertised.
-     ⚠ Liquid Glass may also land on Sat 3 Oct (11-1 and 2-4). If it does, the mornings collide.  */
+     ⚠ Liquid Glass may also land on Sat 10 Oct (11-1 and 2-4). If it does, the mornings collide.  */
   {
-    id: "wool_quilting_oct3",
+    id: "wool_quilting_oct10",
     pages: ["GAC"],
     title: "Beginning Wool Quilting & Simple Embroidery",
     category: "specialty",
@@ -1105,8 +1105,8 @@ var ALL_EVENTS = [
     buttonLabel: "Book the Workshop",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-cleo-pirtle-wool-quilting_orig.jpg",
-    dateLabel: "Saturday, Oct 3 · 10:00 AM–1:00 PM",
-    schedule: { type:"once", date:"2026-10-03", startTime:"10:00", endTime:"13:00" }
+    dateLabel: "Saturday, Oct 10 · 10:00 AM–1:00 PM",
+    schedule: { type:"once", date:"2026-10-10", startTime:"10:00", endTime:"13:00" }
   },
 
   /* ============ Arts in Common Café: Creative Connections  -  71 weekday mornings (Mark Nichols) ============
