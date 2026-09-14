@@ -1101,7 +1101,7 @@ var ALL_EVENTS = [
     price: "$70 · optional $60 supply kit",
     spots: "15 spots",
     hook: "Wool, thread, and a little bit of magic",
-    description: "Hand appliqué for beginners, taught by someone who has been quilting her whole life. You will learn to cut out and sew down appliqué pieces of wool entirely by hand &mdash; no sewing machine &mdash; along with colour combinations, figure outlines, basic sewing and simple embroidery. <strong>Saturday, October 3, 10:00 AM&ndash;1:00 PM</strong> with Cleo Pirtle. Ages 12 and up, no experience needed. Bring your own wool, scissors, needles and thread, or add the supply kit when you book and everything is ready for you.",
+    description: "Hand appliqué for beginners, taught by someone who has been quilting her whole life. You will learn to cut out and sew down appliqué pieces of wool entirely by hand &mdash; no sewing machine &mdash; along with colour combinations, figure outlines, basic sewing and simple embroidery. <strong>Saturday, October 10, 10:00 AM&ndash;1:00 PM</strong> with Cleo Pirtle. Ages 12 and up, no experience needed. Bring your own wool, scissors, needles and thread, or add the supply kit when you book and everything is ready for you.",
     buttonLabel: "Book the Workshop",
     link: "https://pci.jotform.com/form/261687139050055",
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-cleo-pirtle-wool-quilting_orig.jpg",
