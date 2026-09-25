@@ -1197,7 +1197,7 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-9302_orig.jpeg",
     dateLabel: "Saturday, Oct 3, 2026 · 10:00 AM–2:00 PM",
     schedule: { type:"once", date:"2026-10-03", startTime:"10:00", endTime:"14:00" }
-  
+  },
 
    
   /* ============ Spooktacular 2026  -  dates, 3 nights (FEATURED) ============
