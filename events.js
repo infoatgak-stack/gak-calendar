@@ -1197,28 +1197,7 @@ var ALL_EVENTS = [
     image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-9302_orig.jpeg",
     dateLabel: "Saturday, Oct 3, 2026 · 10:00 AM–2:00 PM",
     schedule: { type:"once", date:"2026-10-03", startTime:"10:00", endTime:"14:00" }
-  },
-
-  /* ============ Toddler Spooktacular 2026  -  once, Saturday Oct 10 2026 ============
-     Free, informational only, no button or link.
-     Ages 0-4. No capacity cap given, so "spots" is left off.
-     Same date as the Wool Quilting workshop (10 AM–1 PM, Holly St), but this is
-     3:00–5:00 PM at the D St location, so no actual time or room conflict. */
-  {
-    id: "toddler_spooktacular_2026",
-    pages: ["GAK"],
-    title: "Toddler Spooktacular 2026",
-    category: "littles",
-    color: "orange",
-    tags: ["Toddlers","Halloween","Free"],
-    location: "2215 D St, Bellingham, WA 98225",
-    price: "Free",
-    hook: "Spooky and creative activities for the little ones",
-    description: "A Halloween party sized just right for ages 0&ndash;4. Come in costume for our costume contest, dance, and get a little messy with slime and sensory play. <strong>Saturday, October 10, 3:00&ndash;5:00 PM</strong> at Gabriel's Art Kids, 2215 D St. Activities include a costume contest, dance party, slime beanbag toss, an outdoor activity, make-and-take art, a slime table, and a fall/Halloween sensory bin. No food provided.",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-9304_orig.jpeg",
-    dateLabel: "Saturday, Oct 10, 2026 · 3:00–5:00 PM",
-    schedule: { type:"once", date:"2026-10-10", startTime:"15:00", endTime:"17:00" }
-  },
+  
 
    
   /* ============ Spooktacular 2026  -  dates, 3 nights (FEATURED) ============
