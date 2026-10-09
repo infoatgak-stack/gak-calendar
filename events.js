@@ -1056,32 +1056,6 @@ var ALL_EVENTS = [
     }
   },
 
-  /* ============ Beginning Wool Quilting & Simple Embroidery  -  one Saturday (Cleo Pirtle) ============
-     Sat 10 Oct, 10 AM - 1 PM. Ages 12+. 15 spots.
-     $70 for the workshop. The $60 supply kit is an OPTIONAL CHECKBOX at checkout,
-     not bundled into the price - people who already have wool and needles should not pay it.
-     Cleo travels from Bainbridge Island for this, so the date needs to be firm before it is advertised.
-     ⚠ Liquid Glass may also land on Sat 10 Oct (11-1 and 2-4). If it does, the mornings collide.  */
-  {
-    id: "wool_quilting_oct10",
-    pages: ["GAC"],
-    title: "Beginning Wool Quilting & Simple Embroidery",
-    category: "specialty",
-    tags: ["Teens","Adults","All Levels"],
-    teacher: "cleo",
-    venueLabel: "Gabriel's Art Center",
-    location: "322 E. Holly St., Downtown Bellingham, WA",
-    price: "$70 · optional $60 supply kit",
-    spots: "15 spots",
-    hook: "Wool, thread, and a little bit of magic",
-    description: "Hand appliqué for beginners, taught by someone who has been quilting her whole life. You will learn to cut out and sew down appliqué pieces of wool entirely by hand &mdash; no sewing machine &mdash; along with colour combinations, figure outlines, basic sewing and simple embroidery. <strong>Saturday, October 10, 10:00 AM&ndash;1:00 PM</strong> with Cleo Pirtle. Ages 12 and up, no experience needed. Bring your own wool, scissors, needles and thread, or add the supply kit when you book and everything is ready for you.",
-    buttonLabel: "Book the Workshop",
-    link: "https://pci.jotform.com/form/261687139050055",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/gac-cleo-pirtle-wool-quilting_orig.jpg",
-    dateLabel: "Saturday, Oct 10 · 10:00 AM–1:00 PM",
-    schedule: { type:"once", date:"2026-10-10", startTime:"10:00", endTime:"13:00" }
-  },
-
   /* ============ Arts in Common Café: Creative Connections  -  71 weekday mornings (Mark Nichols) ============
      Free, by donation, walk-in friendly. Registration is only so we know roughly who is coming.
      Tue 8 Sept - Fri 18 Dec, every weekday 8-9 AM. Holidays removed: Veterans Day (Nov 11),
@@ -1128,29 +1102,6 @@ var ALL_EVENTS = [
       "2026-12-18"
       ]
     }
-  },
-
-/* ============ Frightful Totes at Hela Provisions  -  once, Oct 13 2026 ============
-     Halloween-themed paint-your-own-tote night, partner venue (not a GAK/GAC class).
-     $65 includes a glass of wine and a snack platter. 15 participants max. */
-  {
-    id: "frightful_totes_hela",
-    pages: ["GAK"],
-    title: "Frightful Totes at Hela Provisions",
-    category: "family",
-    color: "orange",
-    tags: ["Adults","Halloween","Partner Event"],
-    venueLabel: "Hela Provisions",
-    location: "1305 Cornwall Ave, Bellingham, WA 98225",
-    price: "$65 with wine &amp; snack platter",
-    spots: "Limited to 15 participants",
-    hook: "Paint a tote, sip some wine, get a little spooky",
-    description: "A Halloween-inspired tote painting night at Hela Provisions. Decorate your own canvas tote with frightful and fall-inspired designs &mdash; pumpkins, ghosts, bats, autumn leaves, cozy motifs, and your own creative twist. This fun, family-friendly event is a chance to get crafty, celebrate the season, and leave with a personalized tote perfect for trick-or-treating, farmers markets, or everyday use. <strong>Tuesday, October 13, 5:00&ndash;7:00 PM.</strong> $65 includes a glass of wine and a snack platter (meat &amp; cheese or veggie). All art supplies included. Space is limited to 15 participants.",
-    buttonLabel: "Register Now",
-    link: "https://www.gabrielsartkids.com/paint-a-tote-hela-provisions.html",
-    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/paint-and-sip-hella-psd_orig.jpeg",
-    dateLabel: "Tuesday, Oct 13, 2026 · 5:00–7:00 PM",
-    schedule: { type:"once", date:"2026-10-13", startTime:"17:00", endTime:"19:00" }
   },
 
   /* ============ GAK Crawl  -  once, Saturday Oct 3 2026 ============
