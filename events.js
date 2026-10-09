@@ -1227,6 +1227,28 @@ var ALL_EVENTS = [
     schedule: { type:"weekly", weekday:5, anchor:"2026-09-11", until:"2026-10-16", startTime:"10:00", endTime:"10:45", skip:[] }
   },
 
+  /* ============ 15b) Toddler Music & Art  -  Nov–Dec 2026, weekly ============
+     6 Fridays, no class Nov 27 (Thanksgiving break). Teacher: Julie. */
+
+{
+    id: "toddler_music_novdec_2026",
+    pages: ["GAK","GAC"],
+    title: "Toddler Music & Art: Nov–Dec 2026",
+    category: "littles",
+    tags: ["Whole Family","Toddlers"],
+    venueLabel: "Gabriel's Art Center",
+    location: "322 E. Holly St., Downtown Bellingham, WA",
+    price: "$139 for 6 weeks",
+    spots: "10 spots",
+    hook: "Grown-ups stay, playground open till 11",
+    description: "Six Friday mornings of shakers, scarves, drums, and process art for ages birth to 4, with a grown-up right there beside them. No drop-off, no performance, no experience needed. <strong>Fridays, Nov 6 &ndash; Dec 18 &middot; 10:00&ndash;10:45 AM</strong> (no class Nov 27) &middot; With Teacher Julie &middot; Playground open until 11:00 &middot; Limited to 10 students.",
+    buttonLabel: "Register Now",
+    link: "https://www.gabrielsartkids.com/toddlermusic.html",
+    image: "https://www.gabrielsartkids.com/uploads/4/5/5/6/4556661/img-6692_orig.jpeg",
+    dateLabel: "6 Fridays, Nov 6 – Dec 18 (no class Nov 27) · 10:00–10:45 AM",
+    schedule: { type:"weekly", weekday:5, anchor:"2026-11-06", until:"2026-12-18", startTime:"10:00", endTime:"10:45", skip:["2026-11-27"] }
+  },
+
   /* ──────────────────────────────────────────────────────────────────────────
      📝  NOW ENROLLING  ·  year-round programmes
      ────────────────────────────────────────────────────────────────────────── */
